@@ -6,8 +6,7 @@
 1, Argentina, Pergamino
 1, Argentina, Salta
 2, Armenia, Gyumri
-1, Armenia, Richland
-5, Armenia, Yerevan-36
+6, Armenia, Yerevan
 46, Australia, ACT, Canberra
 2, Australia, Brisbane
 8, Australia, Callaghan
@@ -65,7 +64,7 @@
 1, Belgium, Ukkel
 1, Benin, Abomey-Calavi
 1, Benin, Cotonou
-1, Bermuda, GE, St.George's
+1, Bermuda, St.George's
 1, Brazil, Amazonas
 6, Brazil, Asa Norte
 2, Brazil, Bauru
@@ -81,7 +80,7 @@
 1, Brazil, Florianópolis
 1, Brazil, Fortaleza
 1, Brazil, João Pessoa
-1, Brazil, MNG, Viçosa
+1, Brazil, Viçosa
 1, Brazil, Manaus
 1, Brazil, Minas Gerais
 3, Brazil, Natal
@@ -207,9 +206,8 @@
 79, China, Lanzhou
 1, China, Lingang
 1, China, Linyi
-1, China, Marsfield
 7, China, Nanchang
-231, China, Nanjing
+232, China, Nanjing
 4, China, Nanning
 2, China, Nantong
 58, China, Qingdao
@@ -293,14 +291,14 @@
 1, France, Beaumont
 1, France, Besançon
 2, France, Bordeaux
-1, France, Bouguenais Cedex
+1, France, Bouguenais
 4, France, Brest
 1, France, Cachan
 2, France, Caen
 1, France, Castanet Tolosan
 2, France, Champs-sur-Marne
 1, France, Chateaubourg
-1, France, Chatenay-Malabri
+1, France, Chatenay-Malabry
 1, France, Chatou
 1, France, Cherbourg-en-Cotentin
 10, France, Clermont-Ferrand
@@ -322,7 +320,7 @@
 4, France, Marseille
 1, France, Massy
 9, France, Meudon
-1, France, Mont-Saint-Aignan Cedex
+1, France, Mont-Saint-Aignan
 3, France, Nancy
 6, France, Nantes
 4, France, Nice
@@ -332,7 +330,7 @@
 2, France, Palaiseau
 173, France, Paris
 7, France, Pau
-1, France, Perpignan Cedex
+1, France, Perpignan
 2, France, Pessac
 14, France, Plouzané
 1, France, Pointe à Pitre
@@ -455,10 +453,9 @@
 2, India, Jodhpur
 2, India, Jorhat
 12, India, Kanpur
-1, India, Karagpur
 6, India, Karnataka
 1, India, Kerala
-24, India, Kharagpur
+25, India, Kharagpur
 1, India, Khordha
 1, India, Khurda
 14, India, Kolkata
@@ -483,7 +480,7 @@
 42, India, Roorkee
 3, India, Rourkela
 1, India, Shillong
-1, India, Sonepat
+1, India, Sonipat
 3, India, Srinagar Garhwal
 1, India, Telangana
 4, India, Thiruvananthapuram
@@ -529,8 +526,7 @@
 1, Italy, Forlì
 3, Italy, Frascati
 1, Italy, Genoa
-2, Italy, Ispra
-3, Italy, Ispra Vey
+5, Italy, Ispra
 2, Italy, L'Aquila
 1, Italy, La Spezia
 1, Italy, Latium
@@ -696,7 +692,6 @@
 1, Netherlands, Leeuwarden
 1, Netherlands, Nieuwegein
 6, Netherlands, Noordwijk
-1, Netherlands, North Holl
 1, Netherlands, Schoonhoven
 3, Netherlands, The Hague
 52, Netherlands, Utrecht
@@ -805,8 +800,7 @@
 18, South Korea, Chuncheon
 2, South Korea, Chungcheongbuk-do
 15, South Korea, Daegu
-58, South Korea, Daejeon
-1, South Korea, Deajeon
+59, South Korea, Daejeon
 1, South Korea, Donghae
 1, South Korea, Gangneung
 4, South Korea, Gangwon-do
@@ -858,8 +852,7 @@
 2, Spain, San Fernando
 2, Spain, Santa Cruz de Tenerife
 2, Spain, Santander
-1, Spain, Tarrasa
-1, Spain, Terrassaa
+2, Spain, Tarrasa
 2, Spain, Torrejón de Ardoz
 2, Spain, Tres Cantos
 5, Spain, Valencia
@@ -1229,7 +1222,6 @@
 83, United States, HI, Honolulu
 1, United States, HI, Kaneohe
 1, United States, HI, Kapolei
-1, United States, HI, Lubbock
 1, United States, HI, Mauna Kea
 1, United States, HI, Wahiawa
 25, United States, IA, Ames
@@ -1472,7 +1464,6 @@
 1, United States, NH, Pembroke
 1, United States, NH, Plymouth
 1, United States, NH, West Thornton
-1, United States, NJ, Berrien Springs
 9, United States, NJ, Edison
 1, United States, NJ, Galloway
 4, United States, NJ, Glassboro
@@ -1491,7 +1482,6 @@
 1, United States, NJ, Teaneck
 1, United States, NJ, Wayne
 2, United States, NJ, West Long Branch
-1, United States, NJ, Woobridge
 1, United States, NM, Alamos
 94, United States, NM, Albuquerque
 1, United States, NM, Boulder
@@ -1574,8 +1564,7 @@
 3, United States, OH, Toledo
 4, United States, OH, Wooster
 1, United States, OH, Worthington
-1, United States, OH, Wpafb
-4, United States, OH, Wright-Patterson AFB
+5, United States, OH, Wright-Patterson AFB
 1, United States, OK, Bartlesville
 2, United States, OK, El Reno
 88, United States, OK, Norman
@@ -1585,8 +1574,7 @@
 4, United States, OK, Tulsa
 4, United States, OR, Albany
 1, United States, OR, Beaverton
-1, United States, OR, Corvalis
-144, United States, OR, Corvallis
+145, United States, OR, Corvallis
 61, United States, OR, Eugene
 1, United States, OR, Milton-Freewater
 1, United States, OR, Newberg
@@ -1648,8 +1636,7 @@
 1, United States, SC, Wadmalaw Island
 11, United States, SD, Brookings
 10, United States, SD, Rapid City
-1, United States, SD, Sioux Falla
-18, United States, SD, Sioux Falls
+19, United States, SD, Sioux Falls
 1, United States, SD, Vermillion
 1, United States, TN, Chattanooga
 1, United States, TN, Cookeville
@@ -1678,7 +1665,7 @@
 5, United States, TX, Galveston
 167, United States, TX, Houston
 1, United States, TX, Kingwood
-17, United States, TX, Lubbock
+18, United States, TX, Lubbock
 1, United States, TX, McKinney
 1, United States, TX, Midland
 1, United States, TX, Norman
@@ -1729,6 +1716,7 @@
 1, United States, VA, Virginia
 1, United States, VA, Wallops Island
 4, United States, VA, Williamsburg
+1, United States, VA, Woodbridge
 1, United States, VA, Yorktown
 18, United States, VT, Burlington
 1, United States, VT, Grand Isle

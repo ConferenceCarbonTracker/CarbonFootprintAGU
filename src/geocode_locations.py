@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 geolocator = Nominatim()
 
 ## read data
-pathfolder = "/local/home/kloewer/agu/"
-txt = open(pathfolder+"processed/locations_sorted_m.txt","r")
-txtout = open(pathfolder+"processed/locations_geolocated.txt","w")
+pathfolder = "/Users/milan/git/CarbonFootprintAGU/"
+txt = open(pathfolder+"data/locations_sorted_m.csv","r")
+txtout = open(pathfolder+"data/locations_geolocated.csv","w")
 
 txtout.write("N,country,state,city,lat,lon,dist\n")
 
@@ -15,7 +15,7 @@ SFO = geolocator.geocode("SFO",timeout=30)
 SFOloc = (SFO.latitude,SFO.longitude)
 
 ## get locations from openstreet map database
-for i,line in enumerate(txt.readlines()[1285:]):
+for i,line in enumerate(txt.readlines()):
 
     linesplit = line.split(",")
 
