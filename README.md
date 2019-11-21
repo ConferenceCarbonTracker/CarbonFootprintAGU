@@ -21,3 +21,6 @@ Data is based on the abstracts within the scientific programme [published by AGU
 ## 4. Methods
 
 ## 5. References
+
+https://eos.org/opinions/should-agu-have-fly-in-meetings-anymore
+https://eos.org/opinions/agu-should-support-its-members-who-fly-less
