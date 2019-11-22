@@ -13,6 +13,7 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 
 ## 2. Results
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
 
 ## 3. Data
 
