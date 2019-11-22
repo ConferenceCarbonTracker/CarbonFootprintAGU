@@ -16,6 +16,8 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/europe.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
+
 ## 3. Data
 
 Data is based on the abstracts within the scientific programme [published by AGU](https://agu.confex.com/agu/fm19/meetingapp.cgi/Home/0).
