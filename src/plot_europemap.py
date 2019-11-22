@@ -11,7 +11,7 @@ from matplotlib.collections import PatchCollection
 
 ## read data
 path = "git/CarbonFootprintAGU/data/"
-df = pd.read_csv(path+"locations_geolocated.csv")
+df = pd.read_csv(path+"locations.csv")
 n = len(df)
 
 ## Great circle, equi-distant projection
