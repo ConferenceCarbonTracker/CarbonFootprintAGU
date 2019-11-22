@@ -88,7 +88,7 @@ countrynames = ["      {:s}".format(names_sorted[n]) for i,n in enumerate(n_coun
 ax.legend([l1,]*len(countrynames),countrynames,title="Countries or states",loc=2,handlelength=0,fontsize=7)
 
 for i,n in enumerate(n_countries):
-    ax.text(4,91.4-3.66*i,chr(97+i),fontsize=7,color="k",zorder=10)
+    ax.text(4,91.4-3.535*i,chr(97+i),fontsize=7,color="k",zorder=10)
 
 
 ax.set_xlim(0.0,100.0)
