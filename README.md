@@ -14,7 +14,8 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 ## 2. Results
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
-
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/europe.png)
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
 ## 3. Data
 
 Data is based on the abstracts within the scientific programme [published by AGU](https://agu.confex.com/agu/fm19/meetingapp.cgi/Home/0).
@@ -24,4 +25,5 @@ Data is based on the abstracts within the scientific programme [published by AGU
 ## 5. References
 
 https://eos.org/opinions/should-agu-have-fly-in-meetings-anymore
+
 https://eos.org/opinions/agu-should-support-its-members-who-fly-less
