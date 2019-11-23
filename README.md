@@ -17,6 +17,7 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/europe.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
 
 ## 3. Data
 
