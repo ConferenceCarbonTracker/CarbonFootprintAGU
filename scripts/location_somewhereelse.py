@@ -24,9 +24,8 @@ df = pd.read_csv(pathfolder+"data/locations.csv")
 n_locs = len(df)
 
 ## get location of ANY AIRPORT
-LOC = geolocator.geocode("JFK",timeout=30)
+LOC = geolocator.geocode("IAD",timeout=30)
 loc = (LOC.latitude,LOC.longitude)
-loc = (30,-180)
 
 # preallocate dist vector
 dists = np.empty(n_locs)
