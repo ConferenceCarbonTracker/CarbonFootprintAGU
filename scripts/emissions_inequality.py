@@ -54,7 +54,7 @@ names_sorted[10] = "Colorado, USA"
 names_sorted[16] = "Texas, USA"
 names_sorted[43] = "Maryland, USA"
 names_sorted[45] = "New York, USA"
-names_sorted[50] = "Massachusets, USA"
+names_sorted[50] = "Massachussets, USA"
 ## PLOT
 fig,ax = plt.subplots(1,1,figsize=(5.08,5))
 
