@@ -12,6 +12,10 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 ### 1. Introduction
 
 ### 2. Results
+
+Total distance 244 Million km, 1.6AU
+
+
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/europe.png)
