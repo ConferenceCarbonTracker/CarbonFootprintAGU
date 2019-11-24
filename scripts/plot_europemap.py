@@ -41,17 +41,17 @@ parrow = [Arrow(-3.3e6,4.05e6,0,2e5,width=2e5)]
 ax.add_collection(PatchCollection(parrow,color="lightgreen",alpha=0.9))
 
 colr = "#D71455"
-vmax = 0.9
-nmax = df["N"].max()*0.7
-cmap = plt.get_cmap("inferno_r")
+vmax = 1
+nmax = df["N"].max()*0.2
+cmap = cmo.haline_r
 ax.scatter(df["lon"],df["lat"],0.2+7*np.sqrt(df["N"]),
-        c=cmap(0.1+((df["N"]/nmax)**(1/4))*vmax), transform=ccrs.Geodetic(),
+        c=cmap(((df["N"]/nmax)**(1/4))*vmax), transform=ccrs.Geodetic(),
         alpha=.9,edgecolor="k",lw=0.3,zorder=2)
 
 # for legend
 nums = [1,10,50,250]
 for num in nums:
-    ax.scatter(0,0,0.2+7*np.sqrt(num),c=[cmap(0.1+((num/nmax)**(1/4))*vmax)],
+    ax.scatter(0,0,0.2+7*np.sqrt(num),c=[cmap(((num/nmax)**(1/4))*vmax)],
         label="{:d}".format(num),transform=ccrs.Geodetic(),edgecolor="k",lw=0.3)
 
 ax.set_title("Attendees of AGU Fall Meeting 2019",loc="left",fontweight="bold")
