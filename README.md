@@ -27,27 +27,35 @@ The carbon footprint of most conferences and meetings is dominated by participan
 ### 2. Results
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
+
 Figure 1: The locations of 24,008 scientists attending the AGU Fall Meeting, illustrated on an equi-distant map, which preserves the distances with respect to San Francisco. The total distance travelled is 244 million km.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
+
 Figure 2: The locations of scientists from North America. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/europe.png)
+
 Figure 3: The locations of scientists from Europe.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
+
 Figure 4: USA (14222 scientists) and China (2266) are the biggest contributors to the total carbon emissions.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
+
 Figure 5: Carbon emissions sorted by highest per capita emissions. Each grey rectangle represents one country or US state, some of the largest in terms of emissions and participants are named. The 36% furthest-travelling AGU attendees (green lines) are responsible for 74% of the conference's total travel carbon footprint, with the top 17% (blue lines) responsible for 39% of the total.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
+
 Figure 6: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location and internationally easily accessible.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_distance.png)
+
 Figure 7: Travel carbon emissions as a function of distance. The distances of the highest 17% (more than 9540km away from San Francisco) and 36% (more than 8145km) emitting attendees are marked. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/reduction_scenarios.png)
+
 Figure 8: Emission reduction scenarios for the AGU Fall Meeting. 
 
 ### 3. Data
