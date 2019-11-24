@@ -31,12 +31,13 @@ ax = fig.add_subplot(1,1,1,projection=proj)
 ax.set_xlim(-7e5,4.7e6)
 ax.set_ylim(-2e6,2.6e6)
 
-ax.add_feature(cfeature.OCEAN,facecolor="#97BACD",zorder=-2)
-ax.add_feature(cfeature.LAND)
+
+ax.add_feature(cfeature.OCEAN,facecolor="#4381a2",zorder=-2)
+ax.add_feature(cfeature.LAND,facecolor="0.9")
 #ax.add_feature(cfeature.COASTLINE,lw=1,alpha=0.2)
 ax.coastlines(resolution="50m")
 ax.add_feature(cfeature.BORDERS,lw=0.5,alpha=1)
-ax.add_feature(cfeature.LAKES,facecolor="#97BACD",zorder=0.1)
+ax.add_feature(cfeature.LAKES,facecolor="#4381a2",zorder=0.1)
 
 states_provinces = cfeature.NaturalEarthFeature(
         category='cultural',
@@ -60,13 +61,12 @@ alignment = {'ha': 'center', 'va': 'center'}
 ax.text(1.6e6,-1.05e6,"2,000km",**alignment,alpha=0.5,rotation=55)
 ax.text(3.83e6,-8.628e5,"4,000km",**alignment,alpha=0.5,rotation=78)
 
-colr = "#D71455"
 vmax = 0.9
 nmax = df["N"].max()*0.7
 cmap = plt.get_cmap("inferno_r")
 ax.scatter(df["lon"],df["lat"],0.2+7*np.sqrt(df["N"]),
         c=cmap(0.1+((df["N"]/nmax)**(1/4))*vmax), transform=ccrs.Geodetic(),
-        alpha=.9,edgecolor="k",lw=0.1,zorder=2)
+        alpha=.9,edgecolor="k",lw=0.3,zorder=2)
 
 # for legend
 nums = [1,10,50,250,1000]
