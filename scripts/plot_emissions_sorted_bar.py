@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from cmocean import cm as cmo
 from matplotlib.colors import Normalize,LinearSegmentedColormap
-
+%matplotlib qt
 
 ## read data
-path = "git/CarbonFootprintAGU/"
+path = "~/git/CarbonFootprintAGU/"
 df1 = pd.read_csv(path+"data/emissions_per_country.csv")
 df2 = pd.read_csv(path+"data/emissions_per_state.csv")
 
@@ -68,7 +68,8 @@ country_strings[11] = "Switzer\nland"
 ax.set_xticks(np.arange(ncountries_disp+1))
 ax.set_xticklabels(country_strings,rotation=90)
 
-
-ax.set_title("Emissions per country",loc="left")
-plt.tight_layout()
-plt.savefig(path+"plots/emissions_country.png",dpi=200)
+ax.set_title("Emissions per country",loc="left",fontweight="bold")
+ax.spines["top"].set_visible(False)
+ax.spines["right"].set_visible(False)
+#ax.spines["bottom"].set_visible(False)
+#plt.savefig(path+"plots/emissions_country.png",dpi=200)
