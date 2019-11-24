@@ -43,7 +43,7 @@ ax.add_collection(PatchCollection(parrow,color="lightgreen",alpha=0.9))
 colr = "#D71455"
 vmax = 0.9
 nmax = df["N"].max()*0.2
-cmap = cmo.thermal_r
+cmap = plt.get_cmap("inferno_r")
 ax.scatter(df["lon"],df["lat"],0.1+7*np.sqrt(df["N"]),
         c=cmap(((df["N"]/nmax)**(1/4))*vmax), transform=ccrs.Geodetic(),
         alpha=.9,edgecolor="k",lw=0.3,zorder=2)
