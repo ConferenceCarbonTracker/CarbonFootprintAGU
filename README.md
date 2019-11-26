@@ -58,7 +58,7 @@ Figure 3: *Number of attendees per city from Europe. The map is rotated with the
 
 Analysing the emissions per distance travelled we identify that rail, bus or car journeys (assumed for less than 400km distance to San Francisco) account for less than 0.1% of the total emissions (Fig. 4). 
 Short-haul flights (<1500km) account for 2%, wheras long-haul flights (<8000km) for 24% and super long-haul flights (>8000km) for 74% of total emissions. 
-Travel journeys of more than 8000km, which are mostly taken by scientists crossing either Pacific or Atlantic, dominate therefore the travel carbon footprint.
+Travel journeys of more than 8000km, which are mostly taken by scientists crossing either Pacific or Atlantic, dominate therefore the total travel carbon footprint.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_distance.png)
 
@@ -75,9 +75,9 @@ Highest per capita emissions (>10tCO2e) have attendees arriving from Reunion (be
 Sorting the carbon emission per country (or state for the USA) by the per capita emissions from lowest emitting attendees to highest emitting attendees, yields a [Lorenz curve](https://en.wikipedia.org/wiki/Lorenz_curve) describing the carbon emission's inequality (Fig. 6).
 A relatively small number of attendees is responsible for a large amount of emissions.
 This inequality can be measured with the [Gini coefficient](https://en.wikipedia.org/wiki/Gini_coefficient), which is 46% here.
-In the following we will discuss two cases by identifying that (i) the 36% furthest-travelling are responsible for 74% and (ii) the top 17% are responsible for 39% of the conference's total travel carbon footprint. 
-Offering a virtual participation of the AGU Fall Meeeting for the equivalent of the top 36% attendees would therefore reduce the total emissions by 74%, assuming that the carbon emissions from virtual participation are negligible. 
-Virtual participation for the top 17% would reduce the emissions by 39%.
+In the following we will discuss two cases by identifying that (i) the 17% furthest-travelling are responsible for 39% and (ii) the top 36% are responsible for 74% of the conference's total travel carbon footprint. 
+Offering a virtual participation of the AGU Fall Meeeting for the equivalent of the top 17% attendees would therefore reduce the total emissions by 39%, assuming that the carbon emissions from virtual participation are negligible. This includes countries like China, Taiwan and India and the African continent.
+Virtual participation for the top 36% would reduce the emissions by 74%, which includes almost every country outside of North America.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
 
@@ -89,15 +89,25 @@ New Orleans as a location for the AGU Fall Meeting has very similar carbon emiss
 Optimizing the conference location with respect to the total distance covered (which is equivalent to minimizing with respect to the total carbon emissions) yields a global minimum in northern Wisconsin. 
 The optimal conference location has emissions of 86.5% compared to the 2019 emissions for San Francisco, but is inconvenietly located away from major cities. 
 The closest cities are Minneapolis (86.7% of the emissions), Winnipeg (86.9%), and Milwaukee (87.3%). 
-As none of them have major international airports and are therefore hard to reach without an additional detour for many attendees, we identify Chicago as a favourable location which would reduce the emissions by 12.3% (see discussion in section 4.6.1).
+As none of them have major international airports and are therefore hard to reach without an additional detour for many attendees, we identify Chicago as a favourable location which would reduce the emissions by 12.3% (see discussion in section [4.6.1](https://github.com/milankl/CarbonFootprintAGU#461-sensitivity-to-assumptions-of-the-optimal-location)). Using Hawaii as a conference location would increase the emissions by 42%.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
 
-*Figure 7: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible. Relocating the conference to Hawaii would increase the emissions by 42%.*
+*Figure 7: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible.*
+
+We want to summarize the findings by presenting possible reduction scenarios for the AGU Fall Meeting that could be implemented within the next years (Fig. 8)
+Relocating the conference to Washington DC would reduce the travel carbon emissions by 8%. A near-optimal location is Chicago, as the emissions would be reduced by 12%. 
+No further reduction potential beyond 12% is possible from relocation, as Chicago is globally the near-optimal location.
+Offering virtual participation for the equivalent of the 17% highest emitting attendees would reduce the emissions by 39%.
+Conferences like [Ocean Science Meeting](https://www.agu.org/ocean-sciences-meeting/) are only held biennially. 
+Adapting such a conference format, which could be combined with a fully virtual conference every other year, reduces the annual carbon emissions by 50%. 
+Moving such a biennial format to Chicago yields 56% reduction.
+Further reduction scenarios beyond 60% are only possible with virtual participation.
+The most progressive conference format, with a reduction beyond 90%, is possible when the AGU Fall Meeting would be held biennially in Chicago with 36% virtual participation for most non-American scientists including remote presenting for orals and poster sessions, live-streaming and digital discussion forums. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/reduction_scenarios.png)
 
-*Figure 8: Emission reduction scenarios for the AGU Fall Meeting relative to 2019. A biennial conference format may include a fully virtual conference every other year.*
+*Figure 8: Emission reduction scenarios for the AGU Fall Meeting relative to 2019, represented as annual emissions. A biennial conference format may include a fully virtual conference every other year.*
 
 ## 3. Data
 
@@ -109,7 +119,7 @@ All scripts can be found in [`/scripts`](https://github.com/milankl/CarbonFootpr
 
 ## 4.1 Travel route
 
-The departure location per attendee is assumed to be their affiliation's city. The named location `city, state, country` is converted to geographical coordinates with [Nominatim](https://nominatim.org/release-docs/develop/api/Overview/) from the [OpenStreetMap database](https://www.openstreetmap.org/) (see [`/scripts/get_locations.py`](https://github.com/milankl/CarbonFootprintAGU/blob/master/scripts/geocode_locations.py)
+The departure location per attendee is assumed to be their affiliation's city. The named location `city, state, country` is converted to geographical coordinates with [Nominatim](https://nominatim.org/release-docs/develop/api/Overview/) from the [OpenStreetMap database](https://www.openstreetmap.org/) (see [`/scripts/geocode_locations.py`](https://github.com/milankl/CarbonFootprintAGU/blob/master/scripts/geocode_locations.py)
 
 Every attendee is assumed to travel back to their departure location with the same mode of transport. Due to the lack of data, we have to assume that every scientists only came to San Francisco for the purpose of the AGU Fall Meeting. Some scientists likely connected their journey to San Francisco with other conferences, meetings or holidays.
 
