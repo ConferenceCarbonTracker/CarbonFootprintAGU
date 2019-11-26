@@ -20,21 +20,33 @@ Only a format in which the conference takes place biennially in Chicago with vir
 
 ## 1. Introduction
 
-International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions. Universities and other research institutions are high emitters [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the suggested personal carbon allowance [[6](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [7](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [8](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Recent studies suggest that academic air travel has limited direct link to professional success [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862), [9](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)].
+International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. 
+In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions.
+Universities and other research institutions are high emitters [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the suggested personal carbon allowance [[6](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [7](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [8](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. 
+Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
+Recent studies suggest that academic air travel has limited direct link to professional success [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862), [9](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)].
 
-Most conferences do not provide live-streaming, nor allow for remote-speaking, although alternatives exist. Very few conferences are fully virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)) and therefore often almost carbon neutral [[10](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)]. Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
+Most conferences do not provide live-streaming, nor allow for remote-speaking, although alternatives exist. 
+Very few conferences are fully virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)) and therefore often almost carbon neutral [[10](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)]. 
+Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). 
+Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
 
-The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[11](https://dx.doiorg/10.1038/news031208-13),[12](https://dx.doi.org/10.1126/science.318.5847.36)]. For the [European Geoscience Union's General Assembly](https://egu2019.eu/) 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 and present reduction scenarios based on relocation to minimize the total distance covered, and virtual participation.
+The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[11](https://dx.doiorg/10.1038/news031208-13),[12](https://dx.doi.org/10.1126/science.318.5847.36)]. 
+For the [European Geoscience Union's General Assembly](https://egu2019.eu/) 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
+Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 and present reduction scenarios based on relocation to minimize the total distance covered, and virtual participation.
 
 ## 2. Results
 
-More than 24,000 scientists from at least 101 countries will participate in the AGU Fall Meeting 2019 to be held in San Francisco, USA. Most scientists come from one of three regions (Fig. 1): North America (around 63%) , East Asia (17%) and Europe (14%). In total, 244 million km will be travelled by all attendees to San Francisco and back, which is equivalent to 1.6 [astronomical units](https://en.wikipedia.org/wiki/Astronomical_unit), 1.6 times the distance from Earth to the Sun. 
+More than 24,000 scientists from at least 101 countries will participate in the AGU Fall Meeting 2019 to be held in San Francisco, USA. 
+Most scientists come from one of three regions (Fig. 1): North America (around 63%) , East Asia (17%) and Europe (14%). 
+In total, 244 million km will be travelled by all attendees to San Francisco and back, which is equivalent to 1.6 [astronomical units](https://en.wikipedia.org/wiki/Astronomical_unit), 1.6 times the distance from Earth to the Sun. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
 
 *Figure 1: Number of attendees per city of all 24,008 scientists attending the AGU Fall Meeting, illustrated on an equi-distant map, which preserves the distances with respect to San Francisco. The total distance travelled is 244 million km.*
 
-Within the USA, most scientists are based in the [Northeast megalopolis](https://en.wikipedia.org/wiki/Northeast_megalopolis) and in California with additional hotspots around Seattle, WA, Boulder, CO and in Texas (Fig. 2). Almost every scientist arriving from Colorado and further east has to take a long-haul flight (>1500km) to reach San Francisco.
+Within the USA, most scientists are based in the [Northeast megalopolis](https://en.wikipedia.org/wiki/Northeast_megalopolis) and in California with additional hotspots around Seattle, Washington; Boulder, Colorado; and in Texas (Fig. 2). 
+Every scientist arriving from Colorado and further east has to take a long-haul flight (>1500km) to reach San Francisco.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
 
@@ -44,23 +56,44 @@ Figure 2: *Number of attendees per city from North America.*
 
 Figure 3: *Number of attendees per city from Europe. The map is rotated with the most direct route to San Francisco indicated in the top.*
 
-The United States are the biggest contributor to the total travel carbon emissions (23%), with Maryland, New York, Massachussets and Texas ranking highest among its states (Fig. 4). Scientists from China are responsible for 20%, with average per capita emissions of more than 6 tCO2e. Highest per capita emissions (>10tCO2e) have attendees arriving from Reunion (beyond the map limits in Fig. 1), though low numbers make their contribution to the total budget marginal.
-
-![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
-
-*Figure 4: Total carbon emissions per country. USA (14222 scientists) and China (2266) are the biggest contributors. The emissions from the USA is split into its states, of which the largest contributors are indicated by state code.*
-
-![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
-
-*Figure 5: Carbon emissions sorted by highest per capita emissions. Each grey rectangle represents one country or US state, some of the largest in terms of emissions and participants are named. The 36% furthest-travelling AGU attendees (green lines) are responsible for 74% of the conference's total travel carbon footprint, with the top 17% (blue lines) responsible for 39% of the total. The [Gini coefficient](https://en.wikipedia.org/wiki/Gini_coefficient) is 46%.*
-
-![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
-
-*Figure 6: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible. Relocating the conference to Hawaii would increase the emissions by 42%.*
+Analysing the emissions per distance travelled we identify that rail, bus or car journeys (assumed for less than 400km distance to San Francisco) account for less than 0.1% of the total emissions (Fig. 4). 
+Short-haul flights (<1500km) account for 2%, wheras long-haul flights (<8000km) for 24% and super long-haul flights (>8000km) for 74% of total emissions. 
+Travel journeys of more than 8000km, which are mostly taken by scientists crossing either Pacific or Atlantic, dominate therefore the travel carbon footprint.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_distance.png)
 
-*Figure 7: Travel carbon emissions as a function of distance. The distances of the highest 17% (more than 9540km away from San Francisco) and 36% (more than 8145km) emitting attendees are marked. Rail, bus or car journeys account for less than 0.1%, short-haul flights for 2%, long-haul flights for 24% and super long-haul flights for 74% of total emissions.*
+*Figure 4: Travel carbon emissions as a function of distance. The emissions are for retour journeys, whereas the distance is one-way. The distances of the highest 17% (more than 9540km away from San Francisco) and 36% (more than 8145km) emitting attendees are marked. Rail, bus or car journeys account for less than 0.1%, short-haul flights for 2%, long-haul flights for 24% and super long-haul flights for 74% of total emissions.*
+
+The United States are the biggest contributor to the total travel carbon emissions (23%), with Maryland, New York, Massachussets and Texas ranking highest among its states (Fig. 5). 
+Scientists from China are responsible for 20%, with average per capita emissions of more than 6 tCO2e. 
+Highest per capita emissions (>10tCO2e) have attendees arriving from Reunion (beyond the map limits in Fig. 1), though low numbers make their contribution to the total budget marginal.
+
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
+
+*Figure 5: Total carbon emissions per country. USA (14222 scientists) and China (2266) are the biggest contributors. The emissions from the USA is split into its states, of which the largest contributors are indicated by state code.*
+
+Sorting the carbon emission per country (or state for the USA) by the per capita emissions from lowest emitting attendees to highest emitting attendees, yields a [Lorenz curve](https://en.wikipedia.org/wiki/Lorenz_curve) describing the carbon emission's inequality (Fig. 6).
+A relatively small number of attendees is responsible for a large amount of emissions.
+This inequality can be measured with the [Gini coefficient](https://en.wikipedia.org/wiki/Gini_coefficient), which is 46% here.
+In the following we will discuss two cases by identifying that (i) the 36% furthest-travelling are responsible for 74% and (ii) the top 17% are responsible for 39% of the conference's total travel carbon footprint. 
+Offering a virtual participation of the AGU Fall Meeeting for the equivalent of the top 36% attendees would therefore reduce the total emissions by 74%, assuming that the carbon emissions from virtual participation are negligible. 
+Virtual participation for the top 17% would reduce the emissions by 39%.
+
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
+
+*Figure 6: Carbon emissions sorted by highest per capita emissions. Each grey rectangle represents one country or US state, some of the largest in terms of emissions and participants are named. The 36% furthest-travelling AGU attendees (green lines) are responsible for 74% of the conference's total travel carbon footprint, with the top 17% (blue lines) responsible for 39% of the total.*
+
+The AGU Fall Meeting 2018 was held in Washington, DC, following a 2017 conference in New Orleans, Louisiana. 
+Assuming the same attendees from 2019 for these two conferences, we can calculate the travel carbon footprint respectively. 
+New Orleans as a location for the AGU Fall Meeting has very similar carbon emissions compared to San Francisco, but relocating the conference to Washington, DC, reduces the emissions by 7.6% (Fig. 7). 
+Optimizing the conference location with respect to the total distance covered (which is equivalent to minimizing with respect to the total carbon emissions) yields a global minimum in northern Wisconsin. 
+The optimal conference location has emissions of 86.5% compared to the 2019 emissions for San Francisco, but is inconvenietly located away from major cities. 
+The closest cities are Minneapolis (86.7% of the emissions), Winnipeg (86.9%), and Milwaukee (87.3%). 
+As none of them have major international airports and are therefore hard to reach without an additional detour for many attendees, we identify Chicago as a favourable location which would reduce the emissions by 12.3% (see discussion in section 4.6.1).
+
+![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
+
+*Figure 7: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible. Relocating the conference to Hawaii would increase the emissions by 42%.*
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/reduction_scenarios.png)
 
@@ -114,7 +147,7 @@ Additionally, we take into account factors that typically increase the per km em
 - increased flight altitudes depending on distance covered
 - indirect CO2 effects on ozone and cloud formation depending on flight altitude [[20](https://doi.org/10.1007/s11367-018-1556-3)].
 
-Some emission calculators do not include all of the factors above (e.g. [18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf) and [19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)). To our knowledge, the atmosfair calculator [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)] is the most sophisticated. It includes the indirect CO2 effects not just as a factor 2, as an approximation recommended by [Jungbluth and Meili, 2019 ([20])](https://doi.org/10.1007/s11367-018-1556-3) but makes this factor flight altitude dependent (as recommended as a next order accuracy therein). Additionally, atmosfair's calculator uses a database which analysed the aircraft types, their fuel consumption and passenger loads typically flown on specific routes. We therefore obtained our assumed emissions values by searching for typical flight routes to Vienna and simplified the results.
+Some emission calculators do not include all of the factors above (e.g. [18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf) and [19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)). To our knowledge, the atmosfair calculator [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)] is the most sophisticated. It includes the indirect CO2 effects not just as a factor 2, as an approximation recommended by [Jungbluth and Meili, 2019 ([20])](https://doi.org/10.1007/s11367-018-1556-3) but makes this factor flight altitude dependent (as recommended as a next order accuracy therein). Additionally, atmosfair's calculator uses a database which analysed the aircraft types, their fuel consumption and passenger loads typically flown on specific routes. We therefore obtained our assumed emissions values by searching for typical flight routes to San Francisco and simplified the results.
 
 We assume economy class for every participant.
 
@@ -137,6 +170,12 @@ due to the lack of data on modes of transport.
 Emissions from individual journeys can, however, vary by an order of magnitude depending on the type of bus or car, type of train (electric, diesel, highspeed or regional), the local energy mix (for electric), number of passengers, etc. 
 As the contribution of rail, bus or car journeys to the overall carbon footprint of AGU-related travel is negligible (<0.1%), the uncertainty here is negligible too.
 
+### 4.6.1 Sensitivity to assumptions of the optimal location
+
+Analysing the optimal location for the AGU Fall Meeting assumes the same attendees as for the 2019 conference in San Francisco. Relocating comes with an additional pull factor of conferences that are held in vicinity of a scientist's location: 
+The data from 2019 likely includes attendees from California that only attend because the conference is held nearby in San Francisco, but which wouldn't attend a conference in Chicago. 
+Assuming their attendence therefore yields slightly higher emissions, which results in a slightly larger reduction potential than 12% when relocated to Chicago. 
+However, as most of the emissions come from long and super long-haul flights, we estimate this effect to have negligible influence on the exact location that minimises the carbon emissions.
 
 ### 5. References
 
