@@ -15,7 +15,7 @@ df = pd.read_csv(pathfolder+"data/locations.csv")
 n_locs = len(df)
 
 ## get location of ANY AIRPORT
-LOC = geolocator.geocode("Chicago, USA",timeout=30)
+LOC = geolocator.geocode("Hawaii, USA",timeout=30)
 loc = (LOC.latitude,LOC.longitude)
 
 # preallocate dist vector
@@ -37,7 +37,7 @@ N = np.sum(n_sorted)
 dist17 = dist_sorted[np.where(np.cumsum(n_sorted)/N > (1-0.17))[0][0]]
 dist36 = dist_sorted[np.where(np.cumsum(n_sorted)/N > (1-0.36))[0][0]]
 
-dists[dists > dist36] = 0.0
+#dists[dists > dist36] = 0.0
 
 T = 0
 for i in range(n_locs):
@@ -54,4 +54,4 @@ for i in range(n_locs):
         T += dist*2*n*0.3
 
 T_SFO = 69334
-T/1000
+T/1000/T_SFO

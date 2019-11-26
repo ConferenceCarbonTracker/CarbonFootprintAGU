@@ -102,3 +102,7 @@ ax.set_xlabel("% of participants, sorted by per capita emission")
 ax.set_ylabel("% of total emissions")
 
 plt.tight_layout()
+
+GiniB = np.trapz(ccarbonpercent/100,cnumpercent/100)
+Gini = 1-2*GiniB
+Gini

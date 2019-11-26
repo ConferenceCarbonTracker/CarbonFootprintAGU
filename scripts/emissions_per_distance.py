@@ -62,7 +62,12 @@ ax.add_collection(PatchCollection([R1,R2],alpha=.1,facecolor="C2"))
 ax.text(dist17/dx-0.3,1e4,"17% of attendees")
 ax.text(dist36/dx-0.3,1e4,"36%")
 
-ax.bar(np.arange(len(e_binned)),e_binned,alpha=0.8,edgecolor="k")
+ax.bar(0,e_binned[0],color="C2",alpha=0.8,edgecolor="k",label="Rail, bus or car")
+ax.bar(np.arange(1,3),e_binned[1:3],color="C0",alpha=0.8,edgecolor="k",label="Short-haul")
+ax.bar(np.arange(3,16),e_binned[3:16],color="C1",alpha=0.8,edgecolor="k",label="Long-haul")
+ax.bar(np.arange(16,len(e_binned)),e_binned[16:],color="C3",alpha=0.8,edgecolor="k",label="Super long-haul")
+
+ax.legend(loc=1)
 
 ax2 = ax.twinx()
 ax.set_ylim(0,11e3)
