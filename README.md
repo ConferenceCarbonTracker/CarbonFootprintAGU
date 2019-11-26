@@ -186,4 +186,4 @@ https://eos.org/opinions/agu-should-support-its-members-who-fly-less
 
 ## 6. Acknowledgements
 
-Comments on earlier versions of this manuscript by Soeren Thomsen and Casimir Lavergne (Sorbonne University, Paris) and Jefim Vogel (University of Leeds) are highly appreciated.
+Comments on earlier versions of this manuscript by Soeren Thomsen and Casimir Lavergne (Sorbonne University, Paris) and Jefim Vogel (University of Leeds) are highly appreciated. The [Python](https://www.python.org/), [Numpy](https://numpy.org/), [Matplotlib](https://matplotlib.org/) and [Cartopy](https://scitools.org.uk/cartopy/docs/latest/) communities are gratefully acknowledged for providing software libraries that were used for this analysis.
