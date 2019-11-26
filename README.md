@@ -14,8 +14,8 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 More than 24,000 scientists from at least 101 countries will participate in the [American Geoscience Union's (AGU) Fall Meeting 2019](https://www.agu.org/fall-meeting) to be held in San Francisco, USA. 
 We estimate that these scientists will travel in total 244 million km to San Francisco and back, which emits 69,300 tCO2e, an average of 2.9 tCO2e per scientist. 
 98% of these carbon emissions result from long-haul flights (>1500km). 
-Relocating the AGU Fall Meeting to Chicago, USA, a location that is nearly optimal to minimize to total distance covered, reduces the emissions by 12%.
-If the equivalent of the 17% highest emitting attendees would participate virtually, then the carbon emissions would be reduced by 39%. Virtual participation for 36% of the highest emitting attendees would reduce the carbon footprint by 76%. 
+Relocating the AGU Fall Meeting to Chicago, a location that is nearly optimal to minimize to total distance covered, would reduce the emissions by 12%.
+If the equivalent of the 17% highest emitting attendees participated virtually, the carbon emissions would be reduced by 39%. Virtual participation for 36% of the highest emitting attendees would reduce the carbon footprint by 76%. 
 Only a format in which the conference takes place biennially in Chicago with virtual participation for 36% of attendees would reduce the travel carbon footprint by more than 90%.
 
 ## 1. Introduction
@@ -46,19 +46,19 @@ Figure 4: Total carbon emissions per country. USA (14222 scientists) and China (
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
 
-Figure 5: Carbon emissions sorted by highest per capita emissions. Each grey rectangle represents one country or US state, some of the largest in terms of emissions and participants are named. The 36% furthest-travelling AGU attendees (green lines) are responsible for 74% of the conference's total travel carbon footprint, with the top 17% (blue lines) responsible for 39% of the total.
+Figure 5: Carbon emissions sorted by highest per capita emissions. Each grey rectangle represents one country or US state, some of the largest in terms of emissions and participants are named. The 36% furthest-travelling AGU attendees (green lines) are responsible for 74% of the conference's total travel carbon footprint, with the top 17% (blue lines) responsible for 39% of the total. The [Gini coefficient](https://en.wikipedia.org/wiki/Gini_coefficient) is 46%.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
 
-Figure 6: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location and internationally easily accessible.
+Figure 6: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible. Relocating the conference to Hawaii would increase the emissions by 42%.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_distance.png)
 
-Figure 7: Travel carbon emissions as a function of distance. The distances of the highest 17% (more than 9540km away from San Francisco) and 36% (more than 8145km) emitting attendees are marked. 
+Figure 7: Travel carbon emissions as a function of distance. The distances of the highest 17% (more than 9540km away from San Francisco) and 36% (more than 8145km) emitting attendees are marked. Rail, bus or car journeys account for less than 0.1%, short-haul flights for 2%, long-haul flights for 24% and super long-haul flights for 74% of total emissions.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/reduction_scenarios.png)
 
-Figure 8: Emission reduction scenarios for the AGU Fall Meeting relative to 2019. 
+Figure 8: Emission reduction scenarios for the AGU Fall Meeting relative to 2019. A biennial conference format may include a fully virtual conference every other year.
 
 ## 3. Data
 
@@ -68,17 +68,13 @@ Data is based on the abstracts of the scientific programme [published by AGU](ht
 
 All scripts can be found in [`/scripts`](https://github.com/milankl/CarbonFootprintAGU/tree/master/scripts) and the assumptions are discussed in section [4.6](https://github.com/milankl/CarbonFootprintAGU#46-sensitivity-to-assumptions).
 
-## 4.1 Departure location
+## 4.1 Travel route
 
 The departure location per attendee is assumed to be their affiliation's city. The named location `city, state, country` is converted to geographical coordinates with [Nominatim](https://nominatim.org/release-docs/develop/api/Overview/) from the [OpenStreetMap database](https://www.openstreetmap.org/) (see [`/scripts/get_locations.py`](https://github.com/milankl/CarbonFootprintAGU/blob/master/scripts/geocode_locations.py)
 
-## 4.2 Retour and other conferences
-
 Every attendee is assumed to travel back to their departure location with the same mode of transport. Due to the lack of data, we have to assume that every scientists only came to San Francisco for the purpose of the AGU Fall Meeting. Some scientists likely connected their journey to San Francisco with other conferences, meetings or holidays.
-  
-## 4.3 Indirect journeys
 
-We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and may have some considerable errors for rail, car or bus, but less than a factor of 2. More in section [4.6](https://github.com/milankl/CarbonFootprintAGU#46-sensitivity-to-assumptions).
+We assume all journeys to be direct, that means, we calculate the distance as the [great circle distance](https://en.wikipedia.org/wiki/Great-circle_distance). This is more accurate for long-haul than for short-haul, and may have some considerable errors for rail, car or bus (see discussion in section [4.6](https://github.com/milankl/CarbonFootprintAGU#46-sensitivity-to-assumptions).)
   
 ## 4.4 Mode of transport
 
@@ -180,9 +176,9 @@ As the contribution of rail, bus or car journeys to the overall carbon footprint
 
 [21] [OUI SNCF, 2018. *Calculation of CO2 emissions on your train journey*.](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)
 
-https://eos.org/opinions/should-agu-have-fly-in-meetings-anymore
+[??] [Parrish, JT, 2017.  *Should AGU Have Fly-in Meetings Anymore?*, **Eos**, 98, doi:10.1029/2017EO089361](https://doi.org/10.1029/2017EO089361).
 
-https://eos.org/opinions/agu-should-support-its-members-who-fly-less
+[??] [Cobb, KM, P Kalmus, DM Romps, 2018. *AGU Should Support Its Members Who Fly Less*, **Eos**, 99, doi:10.1029/2018EO111475](https://doi.org/10.1029/2018EO111475)
 
 ## 6. Acknowledgements
 
