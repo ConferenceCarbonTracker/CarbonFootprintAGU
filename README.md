@@ -22,25 +22,25 @@ International aviation is projected to contribute 22% to global greenhouse gas e
 
 Most conferences do not provide live-streaming, nor allow for remote-speaking, although alternatives exist. Very few conferences are fully virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)) and therefore often almost carbon neutral [[10](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)]. Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
 
-The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[11](https://dx.doiorg/10.1038/news031208-13),[12](https://dx.doi.org/10.1126/science.318.5847.36)]. For the EGU General Assembly 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 and present reduction scenarios based on relocation to minimize the total distance covered, and virtual participation.
+The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[11](https://dx.doiorg/10.1038/news031208-13),[12](https://dx.doi.org/10.1126/science.318.5847.36)]. For the [European Geoscience Union's General Assembly](https://egu2019.eu/) 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 and present reduction scenarios based on relocation to minimize the total distance covered, and virtual participation.
 
 ### 2. Results
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
 
-Figure 1: The locations of 24,008 scientists attending the AGU Fall Meeting, illustrated on an equi-distant map, which preserves the distances with respect to San Francisco. The total distance travelled is 244 million km.
+Figure 1: Number of attendees per city of all 24,008 scientists attending the AGU Fall Meeting, illustrated on an equi-distant map, which preserves the distances with respect to San Francisco. The total distance travelled is 244 million km.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/usa.png)
 
-Figure 2: The locations of scientists from North America. 
+Figure 2: Number of attendees per city of scientists from North America. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/europe.png)
 
-Figure 3: The locations of scientists from Europe.
+Figure 3: Number of attendees per city of scientists from Europe.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_country.png)
 
-Figure 4: USA (14222 scientists) and China (2266) are the biggest contributors to the total carbon emissions.
+Figure 4: Total carbon emissions per country. USA (14222 scientists) and China (2266) are the biggest contributors. The emissions from the USA is split into its states, of which the largest contributors are indicated by state code. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_inequality.png)
 
@@ -48,7 +48,7 @@ Figure 5: Carbon emissions sorted by highest per capita emissions. Each grey rec
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/optimal_location.png)
 
-Figure 6: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location and internationally easily accessible.
+Figure 6: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location and internationally easily accessible.
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/emissions_distance.png)
 
@@ -56,7 +56,7 @@ Figure 7: Travel carbon emissions as a function of distance. The distances of th
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/reduction_scenarios.png)
 
-Figure 8: Emission reduction scenarios for the AGU Fall Meeting. 
+Figure 8: Emission reduction scenarios for the AGU Fall Meeting relative to 2019. 
 
 ### 3. Data
 
@@ -92,9 +92,9 @@ The emission of rail, bus or car journeys are grouped and assumed to emit 60gCO2
 
 The missions of flights are split into three categories
 
-    200gCO2e / km / person for short-haul,
-    250gCO2e / km / person for long-haul, and
-    300gCO2e / km / person for super long-haul.
+- 200gCO2e / km / person for short-haul,
+- 250gCO2e / km / person for long-haul, and
+- 300gCO2e / km / person for super long-haul.
 
 These values take into account factors that typically decrease the per km emissions for long-haul flights such as [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
 [18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf),[19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)]
@@ -120,20 +120,19 @@ Carbon emissions of live-streaming are assumed to be negligible.
 
 Sensitivity to the assumptions is fairly low. Main contributions to the uncertainty of the carbon footprint are
 
-a) The carbon dioxide equivalent emissions of long-haul flights: These are assumed to be 250gCO2e / km / person, which is a representative average with probably less than 10% error [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]. The emissions of individual flights have much higher uncertainty and depend on number of passengers, airline / flight class, type of aircraft, potential detours, flight altitude, and weather conditions. The carbon dioxide equivalent emissions of super long-haul flights (>10,000km) are usually higher due to additional fuel weight and flight altitude, although increased fuel consumption from start and detour contribute less for such long distances.
+a) **The carbon dioxide equivalent emissions of long-haul and super long-haul flights**. These are assumed to be 250g and 300g CO2e / km / person, respectively, which is a representative average with probably less than 10% error [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]. The emissions of individual flights have much higher uncertainty and depend on number of passengers, airline / flight class, type of aircraft, potential detours, flight altitude, and weather conditions. The carbon dioxide equivalent emissions of super long-haul flights (>8,000km) are usually higher due to additional fuel weight and flight altitude, although increased fuel consumption from start and detour contribute less for such long distances.
 
-b) The exact departure location of scientists from USA: A flight from Los Angeles to Vienna emits 1.8 times more tCO2e than a flight from New York City to Vienna [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]. We assume that a ratio of 70% of scientists depart from Washington DC and 30% from Los Angeles is representative to account for longer journeys (but therefore probably also fewer scientists) from Midwestern, Southern USA or the West Coast. Assuming 50% of scientists from the USA depart from Washington and 50% from Los Angeles, would increase the emission of those by 17%. As the USA contribution to the overall carbon dioxide emissions of EGU travel is 20%, this uncertainty accounts for less than 4% in total.
+b) **The exact route travelled by every attendee.** We have to assume great circle distances for every route travelled, although most attendees have to travel to the closest international airport first. Some routes require stopovers at airports that usually come with some detour. It is assumed that these detours rarely add more than 20% to the distance covered. As most attendees arrive from major cities with direct connections to San Francisco, we consider this uncertainty to contribute less than 10% to the total travel carbon footprint.
 
-c) The exact departure location of scientists from China: We assume that all scientists from China fly in from Beijing. A flight from Shanghai emits less than 20% more tCO2e than a flight from Beijing. Assuming half of the scientists from China flew in from Shanghai, this would increase China's emission by 10%. Taking into account that China contributes 20% to the overall emissions of EGU travel, this uncertainty is less than 2% in total.
-
-d) Similar arguments hold for the exact departure locations of scientists from Canada, Brazil, Australia, and India. Smaller countries like New Zealand, Taiwan, South Korea, contribute even less to the uncertainty.
-
-e) The carbon dioxide equivalent emissions of rail journeys. These are assumed to be 30gCO2e / km / person [[13](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf),
+c) **The carbon dioxide equivalent emissions of rail, bus or car journeys.**
+These are assumed to be 60gCO2e / km / person, which we estimate as an average [[13](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf),
 [14](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf),
 [15](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9),
-[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)], which can be considered as an European average. Emissions from individual trains can, however, be lower by an order of magnitude depending on the type of train (electric, diesel, highspeed or regional), the local energy mix (for electric trains), number of passengers, etc. The highspeed train in France is estimated to emit only 3gCO2e / km  / person [[21](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)], due to a very low carbon electric grid, but average trains in the UK emit 40gCO2e / km / person [[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)] as many services are not electrified and diesel trains are used instead. As the contribution of rail journeys to the overall carbon footprint of EGU-related travel is negligible (<1%), the uncertainty here is negligible too.
+[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)],
+due to the lack of data on modes of transport.
+Emissions from individual journeys can, however, vary by an order of magnitude depending on the type of bus or car, type of train (electric, diesel, highspeed or regional), the local energy mix (for electric), number of passengers, etc. 
+As the contribution of rail, bus or car journeys to the overall carbon footprint of AGU-related travel is negligible (<1%), the uncertainty here is negligible too.
 
-f) Indirect rail journeys. We assume great circle distances of rail journeys such that we likely underestimate the actually travelled distance. However, this error is within a factor of 2. Since the contribution of rail travel to the overall carbon emissions is very small, the resultant uncertainty in the overall budget is negligible.
 
 ### 5. References
 
