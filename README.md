@@ -1,4 +1,6 @@
-## Why we cannot decarbonise international conferences without virtual participation
+[![DOI](https://zenodo.org/badge/223017290.svg)](https://zenodo.org/badge/latestdoi/223017290)
+
+# Why we cannot decarbonise international conferences without virtual participation
 *The travel carbon footprint of the AGU Fall Meeting 2019*
 
 **Milan Klöwer**\
