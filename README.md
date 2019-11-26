@@ -26,7 +26,7 @@ Most conferences do not provide live-streaming, nor allow for remote-speaking, a
 
 The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[11](https://dx.doiorg/10.1038/news031208-13),[12](https://dx.doi.org/10.1126/science.318.5847.36)]. For the [European Geoscience Union's General Assembly](https://egu2019.eu/) 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 and present reduction scenarios based on relocation to minimize the total distance covered, and virtual participation.
 
-### 2. Results
+## 2. Results
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/world.png)
 
@@ -60,31 +60,31 @@ Figure 7: Travel carbon emissions as a function of distance. The distances of th
 
 Figure 8: Emission reduction scenarios for the AGU Fall Meeting relative to 2019. 
 
-### 3. Data
+## 3. Data
 
 Data is based on the abstracts of the scientific programme [published by AGU](https://agu.confex.com/agu/fm19/meetingapp.cgi/Home/0), covering both oral and poster abstracts. We identified the presenting author from all 26,133 abstracts. Of those, we were able to geolocate the affiliations of 24,008 unique presenters. A list of numbers of presenters can be found in [`/data/locations.csv`](https://github.com/milankl/CarbonFootprintAGU/blob/master/data/locations.csv) (per city), [`/data/emissions_per_country.csv`](https://github.com/milankl/CarbonFootprintAGU/blob/master/data/emissions_per_country.csv) (per country), and [`/data/emissions_per_state.csv`](https://github.com/milankl/CarbonFootprintAGU/blob/master/data/emissions_per_state.csv) (per state in the US).
 
-### 4. Methods
+## 4. Methods
 
 All scripts can be found in [`/scripts`](https://github.com/milankl/CarbonFootprintAGU/tree/master/scripts) and the assumptions are discussed in section [4.6](https://github.com/milankl/CarbonFootprintAGU#46-sensitivity-to-assumptions).
 
-### 4.1 Departure location
+## 4.1 Departure location
 
 The departure location per attendee is assumed to be their affiliation's city. The named location `city, state, country` is converted to geographical coordinates with [Nominatim](https://nominatim.org/release-docs/develop/api/Overview/) from the [OpenStreetMap database](https://www.openstreetmap.org/) (see [`/scripts/get_locations.py`](https://github.com/milankl/CarbonFootprintAGU/blob/master/scripts/geocode_locations.py)
 
-### 4.2 Retour and other conferences
+## 4.2 Retour and other conferences
 
 Every attendee is assumed to travel back to their departure location with the same mode of transport. Due to the lack of data, we have to assume that every scientists only came to San Francisco for the purpose of the AGU Fall Meeting. Some scientists likely connected their journey to San Francisco with other conferences, meetings or holidays.
   
-### 4.3 Indirect journeys
+## 4.3 Indirect journeys
 
 We assume all journeys to be direct, that means, we calculate the distance as the great circle distance. This is more accurate for long-haul than for short-haul, and may have some considerable errors for rail, car or bus, but less than a factor of 2. More in section [4.6](https://github.com/milankl/CarbonFootprintAGU#46-sensitivity-to-assumptions).
   
-### 4.4 Mode of transport
+## 4.4 Mode of transport
 
 Rail, car or bus is assumed for all journeys with distances of less than 400km. Airplanes are assumed for longer distances. Short-haul is defined as distances of less than 1500km, distances up to 8000km are long-haul and longer distance are considered to be super long-haul.
 
-### 4.5 Carbon emissions
+## 4.5 Carbon emissions
 
 The emission of rail, bus or car journeys are grouped and assumed to emit 60gCO2e / km / person.
 [[13](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf),
@@ -118,7 +118,7 @@ We assume economy class for every participant.
 
 Carbon emissions of live-streaming are assumed to be negligible.
 
-### 4.6 Sensitivity to assumptions
+## 4.6 Sensitivity to assumptions
 
 Sensitivity to the assumptions is fairly low. Main contributions to the uncertainty of the carbon footprint are
 
@@ -184,4 +184,6 @@ https://eos.org/opinions/should-agu-have-fly-in-meetings-anymore
 
 https://eos.org/opinions/agu-should-support-its-members-who-fly-less
 
-### 6. Acknowledgements
+## 6. Acknowledgements
+
+Comments on earlier versions of this manuscript by Soeren Thomsen and Casimir Lavergne (Sorbonne University, Paris) and Jefim Vogel (University of Leeds) are highly appreciated.
