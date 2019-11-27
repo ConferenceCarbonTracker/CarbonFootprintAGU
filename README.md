@@ -21,19 +21,21 @@ Only a format in which the conference takes place biennially in Chicago with vir
 ## 1. Introduction
 
 International aviation is projected to contribute 22% to global greenhouse gas emissions in 2050 [[1](http://www.europarl.europa.eu/RegData/etudes/STUD/2015/569964/IPOL_STU(2015)569964_EN.pdf)], as doubling of passengers is expected by 2036 [[2](https://www.iata.org/pressroom/pr/Pages/2017-10-24-01.aspx)]. 
-In Paris 2015, world governments have agreed to keep the global temperature increase well below 2°C [[3](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)], which requires drastic reductions in greenhouse gas emissions.
-Universities and other research institutions are high emitters [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the suggested personal carbon allowance [[6](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [7](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [8](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. 
-Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
-Recent studies suggest that academic air travel has limited direct link to professional success [[5](https://www.sciencedirect.com/science/article/pii/S0959652619311862), [9](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)].
+Although aviation is with 2-3% a minor contributor to global emissions [[3](https://archive.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter8.pdf)] its distribution is exceptionally unequal. 
+Probably only 6% of the world population flies in a given year [[4](https://www.quora.com/What-percent-of-the-worlds-population-will-fly-in-an-airplane-in-their-lives)] and most flights are taken by frequent-flyers [[5](https://www.inequalityintransport.org.uk/)].
+Universities and other research institutions are high emitters [[6](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[7](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the suggested personal carbon allowance [[8](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [9](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [10](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. 
+Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [6](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
+Recent studies suggest that academic air travel has limited direct link to professional success [[7](https://www.sciencedirect.com/science/article/pii/S0959652619311862), [11](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)].
 
 Most conferences do not provide live-streaming, nor allow for remote-speaking, although alternatives exist. 
-Very few conferences are fully virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)) and therefore often almost carbon neutral [[10](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)]. 
+Very few conferences are fully virtual (e.g. [virtual island summit](https://www.islandinnovation.co/summit/)) and therefore often almost carbon neutral [[12](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)]. 
 Continuous virtual seminar series allow for frequent academic exchange (e.g. [Virtual Blue COP 25](https://virtualbluecop25.org/)) sometimes with a focus on field-specific subjects (e.g. [EBUS Webinars](https://ebuswebinars.wixsite.com/ebuswebinars)). 
 Live-streaming is provided by more conferences (e.g. [JuliaCon](https://juliacon.org/2019/), with an automatic archive on [YouTube](https://www.youtube.com/playlist?list=PLP8iPy9hna6StY9tIJIUN3F_co9A0zh0H)), mainly to make them more accesible for participants with constraints on time, money, or freedom of travel.
 
-The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[11](https://dx.doiorg/10.1038/news031208-13),[12](https://dx.doi.org/10.1126/science.318.5847.36)]. 
-For the [European Geoscience Union's General Assembly](https://egu2019.eu/) 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[4](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
-Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 and present reduction scenarios based on relocation to minimize the total distance covered, and virtual participation.
+The carbon footprint of most conferences and meetings is dominated by participants with disproportionate travel emissions due to long distance flights [[13](https://dx.doiorg/10.1038/news031208-13),[14](https://dx.doi.org/10.1126/science.318.5847.36)]. 
+For the [European Geoscience Union's General Assembly](https://egu2019.eu/) 2012 it was estimated that 20% of the highest emitting participants are responsible for 70% of the travel emissions [[6](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. Although train journeys are often promoted as a low-carbon alternative, it was shown for the same conference in 2019 that the reduction potential from an increasing number of train journey is at maximum only 10% [[15](https://github.com/milankl/CarbonFootprintEGU)]. 
+The travel carbon footprint of the AGU Fall Meeting was critised before [[16](https://doi.org/10.1029/2017EO089361)], and its fly-in culture therefore questioned [[17](https://doi.org/10.1029/2018EO111475)].
+Here, we calcuate the travel emissions for the AGU Fall Meeting in 2019 accurately based on the affiliations of all presenting authors. Reduction scenarios are calculated and discussed based on relocation to minimize the total distance covered, and virtual participation.
 
 ## 2. Results
 
@@ -193,7 +195,11 @@ However, as most of the emissions come from long and super long-haul flights, we
 
 [2] [International Air Transport Association, 2017. *20 Year Passenger Forecast*](https://www.iata.org/publications/store/Pages/20-year-passenger-forecast.aspx)
 
-[3] [Paris Agreement of the United Nations Framework Convention on Climate Change, 2016.](https://treaties.un.org/doc/Treaties/2016/02/20160215%2006-03%20PM/Ch_XXVII-7-d.pdf)
+[3] [Sims R., et al.,  2014:  *Transport*.  In:  Climate Change 2014: Mitigation of Climate Change. Contribution of Working Group III to the Fifth Assessment Report of the Intergovernmental Panel on Climate Change, Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA.](https://archive.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter8.pdf)
+
+[4] [Farrier, T, 2013. *What percent of the world's population will fly in an airplane in their lives?*](https://www.quora.com/What-percent-of-the-worlds-population-will-fly-in-an-airplane-in-their-lives)
+
+[5] [Banister, D, 2018. *Inequality in Transport*, Alexandrine Press.](https://www.inequalityintransport.org.uk/)
 
 [4] [Le Quere, C, et al., 2015. *Towards a culture of low-carbon research for the 21st century*, Tyndall Centre for Climate Change Research, Working paper 161.](https://tyndall.ac.uk/sites/default/files/twp161.pdf)
 
