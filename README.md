@@ -24,7 +24,7 @@ International aviation is projected to contribute 22% to global greenhouse gas e
 Although aviation is with 2-3% a minor contributor to global emissions [[3](https://archive.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_chapter8.pdf)] its distribution is exceptionally unequal. 
 Probably only 6% of the world population flies in a given year [[4](https://www.quora.com/What-percent-of-the-worlds-population-will-fly-in-an-airplane-in-their-lives)] and most flights are taken by frequent-flyers [[5](https://www.inequalityintransport.org.uk/)].
 Universities and other research institutions are high emitters [[6](https://tyndall.ac.uk/sites/default/files/twp161.pdf)], with individual carbon emissions an order of magnitude larger [[7](https://www.sciencedirect.com/science/article/pii/S0959652619311862)] than the suggested personal carbon allowance [[8](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf), [9](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf), [10](https://www.sciencedirect.com/science/article/pii/S0969699719303229)]. 
-Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [6](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
+Research-associated carbon emissions are dominated by air travel to conferences, meetings and for fieldwork [[6](https://tyndall.ac.uk/sites/default/files/twp161.pdf)]. 
 Recent studies suggest that academic air travel has limited direct link to professional success [[7](https://www.sciencedirect.com/science/article/pii/S0959652619311862), [11](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)].
 
 Most conferences do not provide live-streaming, nor allow for remote-speaking, although alternatives exist. 
@@ -134,10 +134,10 @@ Rail, car or bus is assumed for all journeys with distances of less than 400km. 
 ## 4.5 Carbon emissions
 
 The emission of rail, bus or car journeys are grouped and assumed to emit 60gCO2e / km / person.
-[[13](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf),
-[14](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf),
-[15](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9),
-[16](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)]
+[[18](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf),
+[19](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf),
+[20](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9),
+[21](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)]
 
 The missions of flights are split into three categories
 
@@ -145,21 +145,23 @@ The missions of flights are split into three categories
 - 250gCO2e / km / person for long-haul, and
 - 300gCO2e / km / person for super long-haul.
 
-These values take into account factors that typically decrease the per km emissions for long-haul flights such as [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
-[18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf),[19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)]
+These values take into account factors that typically decrease the per km emissions for long-haul flights such as [[22](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf),
+[23](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf),[24](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)]
 
 - increased fuel consumption for take-off
 - decreased detour factors for longer flights
 - average aircraft types and their fuel consumption
 - average passenger load factors for average airlines.
 
-Additionally, we take into account factors that typically increase the per km emissions for longer flights, which on average tend to outweigh the factors from above [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]
+Additionally, we take into account factors that typically increase the per km emissions for longer flights, which on average tend to outweigh the factors from above [[22](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)]
 
 - increased fuel weight for longer flights
 - increased flight altitudes depending on distance covered
-- indirect CO2 effects on ozone and cloud formation depending on flight altitude [[20](https://doi.org/10.1007/s11367-018-1556-3)].
+- indirect CO2 effects on ozone and cloud formation depending on flight altitude [[25](https://doi.org/10.1007/s11367-018-1556-3)].
 
-Some emission calculators do not include all of the factors above (e.g. [18](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf) and [19](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)). To our knowledge, the atmosfair calculator [[17](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)] is the most sophisticated. It includes the indirect CO2 effects not just as a factor 2, as an approximation recommended by [Jungbluth and Meili, 2019 ([20])](https://doi.org/10.1007/s11367-018-1556-3) but makes this factor flight altitude dependent (as recommended as a next order accuracy therein). Additionally, atmosfair's calculator uses a database which analysed the aircraft types, their fuel consumption and passenger loads typically flown on specific routes. We therefore obtained our assumed emissions values by searching for typical flight routes to San Francisco and simplified the results.
+Some emission calculators do not include all of the factors above (e.g. [23](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf) and [24](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)). To our knowledge, the atmosfair calculator [[22](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)] is the most sophisticated. 
+It includes the indirect CO2 effects not just as a factor 2, as an approximation recommended by [Jungbluth and Meili, 2019 ([25])](https://doi.org/10.1007/s11367-018-1556-3) but makes this factor flight altitude dependent (as recommended as a next order accuracy therein). 
+Additionally, atmosfair's calculator uses a database which analysed the aircraft types, their fuel consumption and passenger loads typically flown on specific routes. We therefore obtained our assumed emissions values by searching for typical flight routes to San Francisco and simplified the results.
 
 We assume economy class for every participant.
 
@@ -201,45 +203,45 @@ However, as most of the emissions come from long and super long-haul flights, we
 
 [5] [Banister, D, 2018. *Inequality in Transport*, Alexandrine Press.](https://www.inequalityintransport.org.uk/)
 
-[4] [Le Quere, C, et al., 2015. *Towards a culture of low-carbon research for the 21st century*, Tyndall Centre for Climate Change Research, Working paper 161.](https://tyndall.ac.uk/sites/default/files/twp161.pdf)
+[6] [Le Quere, C, et al., 2015. *Towards a culture of low-carbon research for the 21st century*, Tyndall Centre for Climate Change Research, Working paper 161.](https://tyndall.ac.uk/sites/default/files/twp161.pdf)
 
-[5] [Wynes, S, SD Donner, S Tannason, N Nabors, 2019. *Academic air travel has a limited influence on professional success*. **Journal of Cleaner Production**, 226, p. 959-967.](https://www.sciencedirect.com/science/article/pii/S0959652619311862)
+[7] [Wynes, S, SD Donner, S Tannason, N Nabors, 2019. *Academic air travel has a limited influence on professional success*. **Journal of Cleaner Production**, 226, p. 959-967.](https://www.sciencedirect.com/science/article/pii/S0959652619311862)
 
-[6] [Institute for Global Environmental Strategies, Aalto University, and D-mat ltd. 2019. *1.5-Degree Lifestyles: Targets and Options for Reducing Lifestyle Carbon Footprints*. Technical Report.Institute for Global Environmental Strategies, Hayama, Japan. ](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf)
+[8] [Institute for Global Environmental Strategies, Aalto University, and D-mat ltd. 2019. *1.5-Degree Lifestyles: Targets and Options for Reducing Lifestyle Carbon Footprints*. Technical Report.Institute for Global Environmental Strategies, Hayama, Japan. ](https://wordpress.hotorcool.org/wp-content/uploads/2019/02/15_Degree_Lifestyles_MainReport.pdf)
 
-[7] [Wynes, S and KA Nicholas, 2017. *The climate mitigation gap: education andgovernment recommendations miss the mosteffective individual actions.* **Environ. Res. Lett.**,12,074024.](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf)
+[9] [Wynes, S and KA Nicholas, 2017. *The climate mitigation gap: education andgovernment recommendations miss the mosteffective individual actions.* **Environ. Res. Lett.**,12,074024.](https://iopscience.iop.org/article/10.1088/1748-9326/aa7541/pdf)
 
-[8] [Goessling, S, P Hanna, J Higham, S Cohen, D Hopkins, 2019. *Can we fly less? Evaluating the ‘necessity’ of air travel*,**Journal of Air Transport Management**, 81](https://www.sciencedirect.com/science/article/pii/S0969699719303229)
+[10] [Goessling, S, P Hanna, J Higham, S Cohen, D Hopkins, 2019. *Can we fly less? Evaluating the ‘necessity’ of air travel*,**Journal of Air Transport Management**, 81](https://www.sciencedirect.com/science/article/pii/S0969699719303229)
 
-[9] [Higham, JES, Hopkins D, Orchiston C, 2019. *The work-sociology of academic aeromobility at remote institutions*, **Mobilities**, 14, p. 612-631](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)
+[11] [Higham, JES, Hopkins D, Orchiston C, 2019. *The work-sociology of academic aeromobility at remote institutions*, **Mobilities**, 14, p. 612-631](https://www.tandfonline.com/doi/full/10.1080/17450101.2019.1589727)
 
-[10] [Ken Hiltner, 2016. *A Nearly Carbon Neutral Conference Model*](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)
+[12] [Ken Hiltner, 2016. *A Nearly Carbon Neutral Conference Model*](https://hiltner.english.ucsb.edu/index.php/ncnc-guide/)
 
-[11] [Mason, B, 2003. *Scientists contribute to greenhouse-gas emissions*, **Nature News**, doi:10.1038/news031208-13](https://dx.doi.org/10.1038/news031208-13)
+[13] [Mason, B, 2003. *Scientists contribute to greenhouse-gas emissions*, **Nature News**, doi:10.1038/news031208-13](https://dx.doi.org/10.1038/news031208-13)
 
-[12] [Lester, B, 2007. *Greening the Meeting*. **Science**, 318, 5847, pp. 36-38, doi:10.1126/science.318.5847.36](https://dx.doi.org/10.1126/science.318.5847.36)
+[14] [Lester, B, 2007. *Greening the Meeting*. **Science**, 318, 5847, pp. 36-38, doi:10.1126/science.318.5847.36](https://dx.doi.org/10.1126/science.318.5847.36)
 
-[13] [Knoerr, W and R Huettermann, 2016. *EcoPassenger: Environmental Methodology and Data, Update 2016*](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf)
+[15] [Kloewer, M, 2019. *The Travel Carbon Footprint of the EGU General Assembly 2019*, Zenodo, doi:10.5281/zenodo.3549850.](https://github.com/milankl/CarbonFootprintEGU)
 
-[14] [International Railway Association UIC and Community  of  European  Railway  and  Infrastructure  Companies CER, 2016. *Rail Transport and Environment: Facts & Figures.*](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf)
+[16] [Parrish, JT, 2017.  *Should AGU Have Fly-in Meetings Anymore?*, **Eos**, 98, doi:10.1029/2017EO089361](https://doi.org/10.1029/2017EO089361).
 
-[15] [European Environment Agency EEA, 2017. *Energy efficiency and specific CO2 emissions*](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9)
+[17] [Cobb, KM, P Kalmus, DM Romps, 2018. *AGU Should Support Its Members Who Fly Less*, **Eos**, 99, doi:10.1029/2018EO111475](https://doi.org/10.1029/2018EO111475)
 
-[16] [UK Office of Rail and Road ORR, 2018: *Rail infrastructure, assets and environmental 2017-18 Annual Statistical Release*](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)
+[18] [Knoerr, W and R Huettermann, 2016. *EcoPassenger: Environmental Methodology and Data, Update 2016*](http://ecopassenger.hafas.de/hafas-res/download/Ecopassenger_Methodology_Data.pdf)
 
-[17] [Atmosfair, 2016. *atmosfair Flight Emissions Calculator: Documentation of the Method and Data*.](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)
+[19] [International Railway Association UIC and Community  of  European  Railway  and  Infrastructure  Companies CER, 2016. *Rail Transport and Environment: Facts & Figures.*](http://www.cer.be/sites/default/files/publication/Facts%20and%20figures%202014.pdf)
 
-[18] [International Civil Aviation Organization ICAO, 2017. *ICAO Carbon Emissions Calculator Methodology, Version 10*](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)
+[20] [European Environment Agency EEA, 2017. *Energy efficiency and specific CO2 emissions*](https://www.eea.europa.eu/data-and-maps/indicators/energy-efficiency-and-specific-co2-emissions/energy-efficiency-and-specific-co2-9)
 
-[19] [Foundation myclimate, 2019. *The myclimate Flight Emission Calculator*.](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)
+[21] [UK Office of Rail and Road ORR, 2018: *Rail infrastructure, assets and environmental 2017-18 Annual Statistical Release*](https://dataportal.orr.gov.uk/media/1114/rail-infrastructure-assets-environmental-2017-18.pdf)
 
-[20] [Jungbluth, N and C Meili, 2019. *Recommendations for calculation of the global warming potential of aviation including the radiative forcing index*. **Int J Life Cycle Assess**, 24, 404](https://doi.org/10.1007/s11367-018-1556-3)
+[22] [Atmosfair, 2016. *atmosfair Flight Emissions Calculator: Documentation of the Method and Data*.](https://www.atmosfair.de/wp-content/uploads/atmosfair-flight-emissions-calculator-englisch-1.pdf)
 
-[21] [OUI SNCF, 2018. *Calculation of CO2 emissions on your train journey*.](https://en.oui.sncf/en/help-en/calculation-of-co2-emissions-on-your-train-journey)
+[23] [International Civil Aviation Organization ICAO, 2017. *ICAO Carbon Emissions Calculator Methodology, Version 10*](https://www.icao.int/environmental-protection/CarbonOffset/Documents/Methodology%20ICAO%20Carbon%20Calculator_v10-2017.pdf)
 
-[??] [Parrish, JT, 2017.  *Should AGU Have Fly-in Meetings Anymore?*, **Eos**, 98, doi:10.1029/2017EO089361](https://doi.org/10.1029/2017EO089361).
+[24] [Foundation myclimate, 2019. *The myclimate Flight Emission Calculator*.](https://www.myclimate.org/fileadmin/user_upload/myclimate_-_home/01_Information/01_About_myclimate/09_Calculation_principles/Documents/myclimate-flight-calculator-documentation_EN.pdf)
 
-[??] [Cobb, KM, P Kalmus, DM Romps, 2018. *AGU Should Support Its Members Who Fly Less*, **Eos**, 99, doi:10.1029/2018EO111475](https://doi.org/10.1029/2018EO111475)
+[25] [Jungbluth, N and C Meili, 2019. *Recommendations for calculation of the global warming potential of aviation including the radiative forcing index*. **Int J Life Cycle Assess**, 24, 404](https://doi.org/10.1007/s11367-018-1556-3)
 
 ## 6. Acknowledgements
 
