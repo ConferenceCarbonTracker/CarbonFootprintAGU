@@ -97,6 +97,17 @@ As none of them have major international airports and are therefore hard to reac
 
 *Figure 7: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible.*
 
+The global distribution of attendees (Fig. 1) suggests a conference model with three hubs, each located centrally in the respective region. We choose Chicago, Beijing and Paris to calculate the emissions from such a conference model if participants travelled to the closest hub. Virtual participation could be considered when the distance to the closest hub exceeds 2,000km, 4,000km or 8,0000km (Table 1). Even the three-hub conference model would need to rely on virtual participation to allow presentations to be broadcast to the other two hubs and doesn't solve the timezone problem.
+
+| Scenario      | Emissions    | virtual for % of attendees|
+| ------------- |-------------:| -----:|
+| 3 hubs (Chicago, Beijing, Paris) | 29.1%        | 0% |
+| 3 hubs + virtual for >8000km | 24.6%      |   2.5% |
+| 3 hubs + virtual for >4000km |  22.1%    |    5.2% |
+| 3 hubs + virtual for >2000km |  9.3%    |    32.3% |
+
+*Table 1: Emissions of the three-hub conference model with hubs in Chicago, Beijing and Paris. Participants travel to the closest location and participate virtually when distance is longer than indicated.
+
 We want to summarize the findings by presenting possible reduction scenarios for the AGU Fall Meeting that could be implemented within the next years (Fig. 8)
 Relocating the conference to Washington DC would reduce the travel carbon emissions by 8%. A near-optimal location is Chicago, as the emissions would be reduced by 12%. 
 No further reduction potential beyond 12% is possible from relocation, as Chicago is globally the near-optimal location.
