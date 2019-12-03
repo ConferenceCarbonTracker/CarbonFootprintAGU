@@ -97,16 +97,16 @@ As none of them have major international airports and are therefore hard to reac
 
 *Figure 7: The optimal location for the AGU Fall Meeting to minimize the total distance travelled. Optimal locations are shown in terms of the carbon emissions relative to San Francisco. White lines enclose areas where the emissions would be below 100% and 90%, as indicated. The optimal location is in northern Wisconsin. Chicago is reasonably close to the optimal location, reduces the emissions by 12% and internationally easily accessible.*
 
-The global distribution of attendees (Fig. 1) suggests a conference model with three hubs, each located centrally in the respective region. We choose Chicago, Beijing and Paris to calculate the emissions from such a conference model if participants travelled to the closest hub. Virtual participation could be considered when the distance to the closest hub exceeds 2,000km, 4,000km or 8,0000km (Table 1). Even the three-hub conference model would need to rely on virtual participation to allow presentations to be broadcast to the other two hubs and doesn't solve the timezone problem. We assume the same participants for the three hubs, although a closer conference location for many will likely attract more attendees and therefore increase the total emissions. 
+The global distribution of attendees (Fig. 1) suggests a conference model with three hubs, each located centrally in the respective region. We choose Chicago, Seoul and Paris to calculate the emissions from such a conference model if participants travel to the closest hub. Virtual participation could be considered when the distance to the closest hub exceeds 2,000km, 4,000km or 8,0000km (Table 1). Even the three-hub conference model would need to rely on virtual participation to allow presentations to be broadcast to the other two hubs and doesn't solve the timezone problem. We assume the same participants for the three hubs, although a closer conference location for many will likely attract more attendees and therefore increase the total emissions. 
 
 | Scenario      | Emissions    | virtual for % of attendees|
 | ------------- |-------------:| -----:|
-| 3 hubs (Chicago, Beijing, Paris) | 29.1%        | 0% |
-| 3 hubs + virtual for >8000km | 24.6%      |   2.5% |
-| 3 hubs + virtual for >4000km |  22.1%    |    5.2% |
-| 3 hubs + virtual for >2000km |  9.3%    |    32.3% |
+| 3 hubs (Chicago, Seoul, Paris) | 28.8%        | 0% |
+| 3 hubs + virtual for >8000km | 24.6%      |   2.3% |
+| 3 hubs + virtual for >4000km |  21.1%    |    6.2% |
+| 3 hubs + virtual for >2000km |  9.3%    |    31.2% |
 
-*Table 1: Emissions of the three-hub conference model with hubs in Chicago, Beijing and Paris. Participants travel to the closest location and participate virtually when distance is longer than indicated.*
+*Table 1: Emissions of the three-hub conference model with hubs in Chicago, Seoul and Paris. Participants travel to the closest location and participate virtually when distance is longer than indicated.*
 
 We want to summarize the findings by presenting possible reduction scenarios for the AGU Fall Meeting that could be implemented within the next years (Fig. 8)
 Relocating the conference to Washington DC would reduce the travel carbon emissions by 8%. A near-optimal location is Chicago, as the emissions would be reduced by 12%. 
@@ -116,7 +116,7 @@ Conferences like [Ocean Science Meeting](https://www.agu.org/ocean-sciences-meet
 Adapting such a conference format, which could be combined with a fully virtual conference every other year, reduces the annual carbon emissions by 50%. 
 Moving such a biennial format to Chicago yields 56% reduction.
 Further reduction scenarios beyond 60% are only possible with virtual participation.
-The three-hub conference model allows for more in-person communication as only 5% would participate outside of the hubs (Chicago, Beijing and Paris) which reduces emissions by 78%.
+The three-hub conference model allows for more in-person communication as only 5% would participate outside of the hubs (Chicago, Seoul and Paris) which reduces emissions by 79%.
 The most progressive conference format, with a reduction beyond 90%, is possible when the AGU Fall Meeting would be held biennially in Chicago with 36% virtual participation for most non-American scientists including remote presenting for orals and poster sessions, live-streaming and digital discussion forums. 
 
 ![](https://github.com/milankl/CarbonFootprintAGU/blob/master/plots/reduction_scenarios.png)
