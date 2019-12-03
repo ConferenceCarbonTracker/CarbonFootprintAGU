@@ -35,16 +35,16 @@ ax.stock_img()
 
 # circles
 patches = []
-patches.append(Circle((0, 0), 5e6))     # 5000km
-patches.append(Circle((0, 0), 1e7))     # 10000km
+patches.append(Circle((0, 0), 4e6))     # 4000km
+patches.append(Circle((0, 0), 8e6))     # 8000km
 p = PatchCollection(patches, alpha=.5, facecolor="none",edgecolor="k",lw=0.5)
 #p.set_array(np.array(colors))
 ax.add_collection(p)
 
 # text of circles
 alignment = {'ha': 'center', 'va': 'top'}
-ax.text(0,-5.01e6,"5,000km",**alignment,alpha=0.5)
-ax.text(0,-10.02e6,"10,000km",**alignment,alpha=0.5)
+ax.text(0,-4.02e6,"4,000km",**alignment,alpha=0.5)
+ax.text(0,-8.02e6,"8,000km",**alignment,alpha=0.5)
 
 
 ax.set_xlim(-1.6e7,1.8e7)
