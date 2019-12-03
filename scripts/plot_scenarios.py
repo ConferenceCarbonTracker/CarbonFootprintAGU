@@ -14,8 +14,7 @@ T_virt36 = T_current*0.26
 T_b_virt17 = T_virt17/2
 T_b_virt36 = T_virt36/2
 T_b_virt36_c = 12988.577128271321/2
-T_3hub = 20203.30074918135
-T_3hub_virt = 15294.741778527705
+T_3hub_virt = 14602.318453989634
 
 T_virt36/T_current
 
@@ -26,7 +25,6 @@ Ts = np.array([T_current,
                 T_biennial,
                 T_Cbiennial,
                 T_b_virt17,
-                #T_3hub,
                 T_virt36,
                 T_3hub_virt,
                 T_b_virt36,
@@ -56,7 +54,7 @@ ax.text(4,5,"Biennial",color="w",rotation=90,ha="center",fontsize=fs)
 ax.text(5,5,"Biennial &\nin Chicago",color="w",rotation=90,ha="center",fontsize=fs)
 ax.text(6,40,"Biennial &\n17% virtual",color="k",rotation=90,ha="center",fontsize=fs)
 ax.text(7,40,"Virtual for 36%",color="k",rotation=90,ha="center",fontsize=fs)
-ax.text(8,40,"Chicago, Beijing,\nParis & 5% virtual",color="k",rotation=90,ha="center",fontsize=fs)
+ax.text(8,40,"Chicago, Seoul,\nParis & 5% virtual",color="k",rotation=90,ha="center",fontsize=fs)
 ax.text(9,40,"Biennial &\n36% virtual",color="k",rotation=90,ha="center",fontsize=fs)
 ax.text(10,40,"Biennial, 36% virtual\n& in Chicago",color="k",rotation=90,ha="center",fontsize=fs)
 
