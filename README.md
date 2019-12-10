@@ -11,9 +11,9 @@ For comments and changes, please raise an [issue](https://github.com/milankl/Car
 
 ## Summary
 
-More than 24,000 scientists from at least 101 countries will participate in the [American Geoscience Union's (AGU) Fall Meeting 2019](https://www.agu.org/fall-meeting) to be held in San Francisco, USA. 
-We estimate that these scientists will travel in total 244 million km to San Francisco and back, which emits 69,300 tCO2e, an average of 2.9 tCO2e per scientist. 
-98% of these carbon emissions result from long-haul flights (>1500km). 
+More than 24,000 scientists from at least 101 countries will present at the [American Geoscience Union's (AGU) Fall Meeting 2019](https://www.agu.org/fall-meeting) held in San Francisco, USA. 
+We estimate that these scientists travel in total 244 million km to San Francisco and back, which emits 69,300 tCO2e, an average of 2.9 tCO2e per scientist. 
+74% of these carbon emissions result from intercontinental flights (>8000km). 
 Relocating the AGU Fall Meeting to Chicago, a location that is nearly optimal to minimize to total distance covered, would reduce the emissions by 12%.
 If the equivalent of the 17% highest emitting attendees participated virtually, the carbon emissions would be reduced by 39%. Virtual participation for 36% of the highest emitting attendees would reduce the carbon footprint by 76%. 
 Only a format in which the conference takes place biennially in Chicago with virtual participation for 36% of attendees would reduce the travel carbon footprint by more than 90%.
