@@ -113,7 +113,7 @@ Relocating the conference to Washington DC would reduce the travel carbon emissi
 No further reduction potential beyond 12% is possible from relocation, as Chicago is globally the near-optimal location.
 Offering virtual participation for the equivalent of the 17% highest emitting attendees would reduce the emissions by 39%.
 Conferences like [Ocean Science Meeting](https://www.agu.org/ocean-sciences-meeting/) are only held biennially. 
-Adapting such a conference format, which could be combined with a fully virtual conference every other year, reduces the annual carbon emissions by 50%. 
+Adapting such a conference format, which could be combined with a fully virtual conference every other year or continuous seminars for regular academic exchange, reduces the annual carbon emissions by 50%. 
 Moving such a biennial format to Chicago yields 56% reduction.
 Further reduction scenarios beyond 60% are only possible with virtual participation.
 The three-hub conference model allows for more in-person communication as only 5% would participate outside of the hubs (Chicago, Seoul and Paris) which reduces emissions by 79%.
