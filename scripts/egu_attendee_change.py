@@ -24,7 +24,7 @@ hdi_med = N[hdi==1,:].sum(axis=0)/all*100
 hdi_hig = N[hdi==2,:].sum(axis=0)/all*100
 hdi_vhi = N[hdi==3,:].sum(axis=0)/all*100
 
-# remove countries with less than 5 participants
+# remove countries with no participants in any year
 conly = (N > 0).all(axis=1)
 N1 = N[conly,:]
 names1 = names[conly]
@@ -39,56 +39,77 @@ hdi1 = hdi1[sortargs]
 
 # mean relative annual change per country
 diff = (N1[:,1:] - N1[:,:-1])/N1[:,:-1]
-diffm = diff.mean(axis=1)
-diffmax = diff.max(axis=1)
-diffmin = diff.min(axis=1)
-
-diffs = np.sort(diff,axis=1)*100
+diffm = np.mean(diff,axis=1)
+diffp10 = np.percentile(diff,10,axis=1)*100
+diffp90 = np.percentile(diff,90,axis=1)*100
 
 allyears = np.array([2012,2013,2014,2015,2016,2017,2018,2019])
+# slope = np.zeros(len(sortargs))
+# A = np.vstack([allyears, np.ones(len(allyears))]).T
+#
+# for i in range(len(sortargs)):
+#     slope[i],_ = np.linalg.lstsq(A,N1[i,:],rcond=None)[0]
+
+clow = "#ed8a00"
+cmed = "#e8e42e"
+chig = "#7dd8a0"
+cvhi = "C0"
+w = 0.2
 
 ## plotting
 x = np.array(list(range(len(sortargs))))
 fig,(ax0,ax) = plt.subplots(2,1,figsize=(8,8))
 
-ax0.bar(allyears,hdi_vhi,color="C2",alpha=0.6,edgecolor="k",label="very high")
-ax0.bar(allyears,hdi_hig,color="yellow",bottom=hdi_vhi,alpha=0.7,edgecolor="k",label="high")
-ax0.bar(allyears,hdi_med,color="C1",bottom=hdi_hig+hdi_vhi,alpha=0.7,edgecolor="k",label="medium")
-ax0.bar(allyears,hdi_low,color="C0",bottom=hdi_hig+hdi_vhi+hdi_med,alpha=0.7,edgecolor="k",label="low")
+ax0.bar(allyears-1.5*w,hdi_low,width=w,color=clow,alpha=1.0,edgecolor="k",label="low")
+ax0.bar(allyears-w/2,hdi_med,width=w,color=cmed,alpha=0.9,edgecolor="k",label="medium")
+ax0.bar(allyears+w/2,hdi_hig,width=w,color=chig,alpha=0.9,edgecolor="k",label="high")
+ax0.bar(allyears+1.5*w,hdi_vhi,width=w,color=cvhi,alpha=0.8,edgecolor="k",label="very high")
 
-ax0.legend(loc=3,title="Human development")
+for i in range(len(allyears)):
+    ax0.text(allyears[i]-1.5*w,0.5+hdi_low[i],"%.1f%%" % hdi_low[i],rotation=90,ha="center")
+    ax0.text(allyears[i]-w/2,0.5+hdi_med[i],"%.1f%%" % hdi_med[i],rotation=90,ha="center")
+    ax0.text(allyears[i]+w/2,0.5+hdi_hig[i],"%i%%" % hdi_hig[i],rotation=90,ha="center")
+    ax0.text(allyears[i]+3*w/2+0.025,12.5,"%i%%" % hdi_vhi[i],rotation=90,ha="center")
 
-ax.scatter(x[hdi1==0],diffm[hdi1==0]*100,40,"C0",alpha=0.7,edgecolor="k",label="low")
-ax.scatter(x[hdi1==1],diffm[hdi1==1]*100,40,"C1",alpha=0.7,edgecolor="k",label="medium")
-ax.scatter(x[hdi1==2],diffm[hdi1==2]*100,40,"yellow",alpha=0.7,edgecolor="k",label="high")
-ax.scatter(x[hdi1==3],diffm[hdi1==3]*100,40,"C2",alpha=0.7,edgecolor="k",label="very high")
+ax0.legend(loc=2)
 
-#ax.legend(loc=1,title="Human development",scatterpoints=3)
+ax.scatter(x[hdi1==0],diffm[hdi1==0]*100,40,clow,alpha=1.0,edgecolor="k",label="low")
+ax.scatter(x[hdi1==1],diffm[hdi1==1]*100,40,cmed,alpha=1.0,edgecolor="k",label="medium")
+ax.scatter(x[hdi1==2],diffm[hdi1==2]*100,40,chig,alpha=1.0,edgecolor="k",label="high")
+ax.scatter(x[hdi1==3],diffm[hdi1==3]*100,40,cvhi,alpha=1.0,edgecolor="k",label="very high")
 
+ax.legend(loc=1,title="Human\ndevelopment\nindex",scatterpoints=3)
+
+# error bars
 for i in range(len(sortargs)):
-    ax.plot([x[i],x[i]],[diffs[i,1],diffs[i,-1]],"k",lw=0.4)
+    ax.plot([x[i],x[i]],[diffp10[i],diffp90[i]],"k",lw=0.7)
 
 
 ax.plot([-0.5,len(sortargs)],[0,0],"k",lw=0.5)
-ax.plot([-0.5,len(sortargs)],[incr_all,incr_all],"C0",lw=1,zorder=-4)
+ax.plot([-0.5,len(sortargs)],[incr_all,incr_all],"k--",lw=2,zorder=-4)
+ax.text(0,8,"Average %i%%" % int(round(incr_all)),color="k",fontweight="bold")
 
 ax.set_xticks(list(range(len(pop))))
 ax.set_xticklabels(names1,rotation=90,fontsize=8)
+ax0.set_xticks(allyears)
 
 # ax.legend(loc=2)
 ax0.set_title("a",loc="right",fontweight="bold")
 ax.set_title("b",loc="right",fontweight="bold")
 
-ax0.set_title("EGU attendees from less developed countries",loc="left")
+ax0.set_title("EGU attendees by human development index",loc="left")
 ax.set_title("Change in attendees per country",loc="left")
 
-ax.set_xlabel("countries, sorted by attendees per capita")
+# ax.set_xlabel("countries, sorted by attendees per capita")
 ax.set_ylabel("annual change in attendees [%]")
 ax0.set_ylabel("share in attendees [%]")
 
 ax.set_xlim(-0.5,len(sortargs)-0.5)
-ax.set_ylim(-50,150)
-ax0.set_ylim(70,100)
+ax.set_ylim(-40,140)
+ax0.set_ylim(0,14)
+ax0.set_xlim(2010.5,2019.5)
 
 plt.tight_layout()
-plt.show()
+plt.savefig("plots/egu_attendees.png",dpi=200)
+plt.savefig("plots/egu_attendees.pdf")
+plt.close(fig)
