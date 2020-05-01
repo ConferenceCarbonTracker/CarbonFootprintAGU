@@ -110,5 +110,6 @@ ax0.set_ylim(0,14)
 ax0.set_xlim(2010.5,2019.5)
 
 plt.tight_layout()
-plt.savefig("plots/egu_attendees.png")
+plt.savefig("plots/egu_attendees.png",dpi=200)
+plt.savefig("plots/egu_attendees.pdf")
 plt.close(fig)
