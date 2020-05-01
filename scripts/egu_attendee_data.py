@@ -20,7 +20,6 @@ for year in allyears:
 allcountries = list(set(allcountries_doubles))
 allcountries.sort()
 ncountries = len(allcountries)
-ncountries
 
 # preallocate
 attendees = np.zeros((ncountries,len(allyears)),dtype=np.int)
