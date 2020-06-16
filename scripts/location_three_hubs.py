@@ -18,10 +18,10 @@ n_locs = len(df)
 LOC1 = geolocator.geocode("Chicago, USA",timeout=30)
 loc1 = (LOC1.latitude,LOC1.longitude)
 
-LOC2 = geolocator.geocode("Paris, France",timeout=30)
+LOC2 = geolocator.geocode("Vienna, Austria",timeout=30)
 loc2 = (LOC2.latitude,LOC2.longitude)
 
-LOC3 = geolocator.geocode("Seoul, South Korea",timeout=30)
+LOC3 = geolocator.geocode("Tokyo, Japan",timeout=30)
 loc3 = (LOC3.latitude,LOC3.longitude)
 
 # preallocate dist vectors
@@ -49,7 +49,7 @@ for i in range(n_locs):
         T += dist*2*n*0.06      # kgCO2e
     elif dist < 1500:    # SHORT HAUL FLIGHT at 200gCO2e / km / person
         T += dist*2*n*0.2
-    elif dist < 2000:    # LONG HAUL FLIGHT at 250gCO2e / km / person
+    elif dist < 4000:    # LONG HAUL FLIGHT at 250gCO2e / km / person
         T += dist*2*n*0.25
     else:                # Virtual participation
         #T += dist*2*n*0.3

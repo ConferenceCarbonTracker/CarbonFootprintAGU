@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.colors import Normalize,LinearSegmentedColormap
-%matplotlib qt
+#%matplotlib qt
 
 T_current = 69334
 T_DC = T_current*0.924
@@ -15,8 +15,7 @@ T_b_virt17 = T_virt17/2
 T_b_virt36 = T_virt36/2
 T_b_virt36_c = 12988.577128271321/2
 T_3hub_virt = 14602.318453989634
-
-T_virt36/T_current
+T_virt100 = T_current*0.001
 
 Ts = np.array([T_current,
                 T_DC,
@@ -27,8 +26,9 @@ Ts = np.array([T_current,
                 T_b_virt17,
                 T_virt36,
                 T_3hub_virt,
-                T_b_virt36,
-                T_b_virt36_c])/T_current*100
+                #T_b_virt36,
+                T_b_virt36_c,
+                T_virt100])/T_current*100
 
 cpath = "/Users/milan/python/ScientificColourMaps5/"
 hawaii = LinearSegmentedColormap.from_list("test",np.loadtxt(cpath+"hawaii/hawaii.txt"))
@@ -54,12 +54,16 @@ ax.text(4,5,"Biennial",color="w",rotation=90,ha="center",fontsize=fs)
 ax.text(5,5,"Biennial &\nin Chicago",color="w",rotation=90,ha="center",fontsize=fs)
 ax.text(6,40,"Biennial &\n17% virtual",color="k",rotation=90,ha="center",fontsize=fs)
 ax.text(7,40,"Virtual for 36%",color="k",rotation=90,ha="center",fontsize=fs)
-ax.text(8,40,"Chicago, Seoul,\nParis & 5% virtual",color="k",rotation=90,ha="center",fontsize=fs)
-ax.text(9,40,"Biennial &\n36% virtual",color="k",rotation=90,ha="center",fontsize=fs)
-ax.text(10,40,"Biennial, 36% virtual\n& in Chicago",color="k",rotation=90,ha="center",fontsize=fs)
+ax.text(8,40,"Chicago, Tokyo,\nParis & 5% virtual",color="k",rotation=90,ha="center",fontsize=fs)
+#ax.text(9,40,"Biennial &\n36% virtual",color="k",rotation=90,ha="center",fontsize=fs)
+ax.text(9,40,"Biennial, 36% virtual\n& in Chicago",color="k",rotation=90,ha="center",fontsize=fs)
+ax.text(10,40,"Fully virtual",color="k",rotation=90,ha="center",fontsize=fs)
 
 ax.set_ylabel("emissions [%] compared to 2019")
-ax.set_title("Reduction scenarios",loc="left",fontweight="bold")
+ax.set_title("Reduce the footprint",loc="left",fontweight="bold")
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
+ax.set_xlim(-0.6,10.6)
+ax.set_ylim(0,100)
 plt.tight_layout()
+plt.show()
