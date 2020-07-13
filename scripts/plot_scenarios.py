@@ -30,7 +30,7 @@ Ts = np.array([T_current,
                 T_b_virt36_c,
                 T_virt100])/T_current*100
 
-cpath = "/Users/milan/python/ScientificColourMaps5/"
+cpath = "/Users/milan/python/ScientificColourMaps6/"
 hawaii = LinearSegmentedColormap.from_list("test",np.loadtxt(cpath+"hawaii/hawaii.txt"))
 
 vmax=100
@@ -41,8 +41,10 @@ fig,ax = plt.subplots(1,1,figsize=(8,4))
 ax.bar(np.arange(len(Ts)),Ts,color=cmap(Ts/vmax),alpha=0.9,edgecolor="k")
 
 yoffset=0.5
-for i in range(1,len(Ts)):
+for i in range(1,len(Ts)-1):
     ax.text(i,Ts[i]+yoffset,"-{:d}%".format(int(round(100-Ts[i]))),ha="center")
+
+ax.text(len(Ts)-1,Ts[-1]+yoffset,"-99.9%",ha="center")
 
 ax.set_xticks([])
 fs = 12

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-# %matplotlib qt
+
 
 ## read data
 path = "~/git/CarbonFootprintAGU/"
@@ -56,6 +56,8 @@ names_sorted[16] = "Texas, USA"
 names_sorted[43] = "Maryland, USA"
 names_sorted[45] = "New York, USA"
 names_sorted[50] = "Massachussets, USA"
+names_sorted[99] = "Mainland China"
+
 ## PLOT
 fig,ax = plt.subplots(1,1,figsize=(5.08,5))
 ax.set_aspect("equal")
@@ -87,10 +89,10 @@ ax.fill_between(x,y1,y2,alpha=0.3,color="k")
 
 # LEGEND
 countrynames = ["      {:s}".format(names_sorted[n]) for i,n in enumerate(n_countries)]
-ax.legend([l1,]*len(countrynames),countrynames,title="Countries or states",loc=2,handlelength=0,fontsize=7)
+ax.legend([l1,]*len(countrynames),countrynames,title="Countries, regions\nor states",loc=2,handlelength=0,fontsize=7)
 
 for i,n in enumerate(n_countries):
-    ax.text(4,91.4-3.65*i,chr(97+i),fontsize=7,color="k",zorder=10)
+    ax.text(4,87.5-3.55*i,chr(97+i),fontsize=7,color="k",zorder=10)
 
 
 ax.set_xlim(0.0,100.0)
@@ -102,7 +104,4 @@ ax.set_xlabel("% of participants, sorted by per capita emission")
 ax.set_ylabel("% of total emissions")
 
 plt.tight_layout()
-
-GiniB = np.trapz(ccarbonpercent/100,cnumpercent/100)
-Gini = 1-2*GiniB
-Gini
+plt.show()
