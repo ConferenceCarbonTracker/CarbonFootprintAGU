@@ -7,7 +7,9 @@
 Atmospheric, Oceanic and Planetary Physics, University of Oxford\
 *milan.kloewer@physics.ox.ac.uk*
 
-For comments and changes, please raise an [issue](https://github.com/milankl/CarbonFootprintAGU/issues) or create a pull request.
+For comments and changes, please raise an [issue](https://github.com/milankl/CarbonFootprintAGU/issues) or create a pull request. This study is published as
+
+M Klöwer, D Hopkins, MR Allen, J Higham, 2020. _An analysis of ways to decarbonize conference travel after COVID-19_, __Nature__, 583, doi: [10.1038/d41586-020-02057-2](https://doi.org/10.1038/d41586-020-02057-2)
 
 ## Summary
 
